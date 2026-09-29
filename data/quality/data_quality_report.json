@@ -1,0 +1,2449 @@
+{
+  "dataset_identity": {
+    "project": "Malaysia Automotive Intelligence",
+    "dataset_id": "registration_transactions_car",
+    "dataset_name": "Car Registration Transactions",
+    "publisher": "Jabatan Pengangkutan Jalan (JPJ) / Ministry of Transport Malaysia",
+    "catalogue_url": "https://data.gov.my/data-catalogue/registration_transactions_car",
+    "licence": "CC BY 4.0",
+    "grain": "One row is one car registration transaction.",
+    "interpretation": [
+      "These are registration transactions, not vehicle sales, purchases, customers, or demand.",
+      "date_reg is the registration date and may differ from a purchase date.",
+      "Rakan Niaga is retained as a registration channel and is not treated as a geographic state.",
+      "greendiesel remains a separate source fuel category.",
+      "The latest yearly file may be a partial year."
+    ]
+  },
+  "source": {
+    "catalogue_url": "https://data.gov.my/data-catalogue/registration_transactions_car",
+    "file_url_template": "https://storage.data.gov.my/transportation/cars_{year}.parquet",
+    "configured_year_start": 2000,
+    "configured_year_end": 2026,
+    "years_profiled": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "run": {
+    "started_at": "2026-09-29T09:23:45.251177+00:00",
+    "finished_at": "2026-09-29T09:27:10.734734+00:00",
+    "phase": 1
+  },
+  "validation_status": "WARN",
+  "files": [
+    {
+      "year": 2000,
+      "local_filename": "cars_2000.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2000.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:45.520099+00:00",
+      "file_size_bytes": 370059,
+      "sha256": "e0bfc392c10adeca9744692f7bdb7e0a0f2efbd746866f9e79dcaec7b9f5ec83",
+      "row_count": 352355,
+      "minimum_date": "2000-01-02",
+      "maximum_date": "2000-12-31"
+    },
+    {
+      "year": 2001,
+      "local_filename": "cars_2001.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2001.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:45.703032+00:00",
+      "file_size_bytes": 422086,
+      "sha256": "8d452f320e52c3e5286cb1acaadd2da4a059041fca80a08160150d8cc14c0949",
+      "row_count": 406148,
+      "minimum_date": "2001-01-01",
+      "maximum_date": "2001-12-31"
+    },
+    {
+      "year": 2002,
+      "local_filename": "cars_2002.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2002.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:45.854380+00:00",
+      "file_size_bytes": 495301,
+      "sha256": "251c38faf47537e1ed973151c6c42d84157a60c619628400675b6a6bbc9fe3d8",
+      "row_count": 446610,
+      "minimum_date": "2002-01-01",
+      "maximum_date": "2002-12-31"
+    },
+    {
+      "year": 2003,
+      "local_filename": "cars_2003.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2003.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:46.015559+00:00",
+      "file_size_bytes": 486043,
+      "sha256": "e4b41f21aa8f8d2aa23ef2a43e8cc198bf7139c3775faf710780fa0a8a2c4f32",
+      "row_count": 431669,
+      "minimum_date": "2003-01-01",
+      "maximum_date": "2003-12-31"
+    },
+    {
+      "year": 2004,
+      "local_filename": "cars_2004.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2004.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:46.231723+00:00",
+      "file_size_bytes": 533103,
+      "sha256": "7e5dcced69426f29753bf41b68a7d4c1e6ce38c23246c0e4b8245eedb9c87173",
+      "row_count": 489224,
+      "minimum_date": "2004-01-01",
+      "maximum_date": "2004-12-31"
+    },
+    {
+      "year": 2005,
+      "local_filename": "cars_2005.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2005.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:46.387899+00:00",
+      "file_size_bytes": 613690,
+      "sha256": "a1f4f644d5383dae54ae17dad1896140942e9132415993c82d8d7be425cdd6cd",
+      "row_count": 566565,
+      "minimum_date": "2005-01-02",
+      "maximum_date": "2005-12-30"
+    },
+    {
+      "year": 2006,
+      "local_filename": "cars_2006.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2006.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:46.599893+00:00",
+      "file_size_bytes": 516752,
+      "sha256": "3bb773ad1dd46336ea48c2c06d256fbe75dd658e45b2cf10e3ab584680789dae",
+      "row_count": 475487,
+      "minimum_date": "2006-01-01",
+      "maximum_date": "2006-12-29"
+    },
+    {
+      "year": 2007,
+      "local_filename": "cars_2007.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2007.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:46.759170+00:00",
+      "file_size_bytes": 519807,
+      "sha256": "93bbd14e34671a534a54cd334b9ce42f8a75ac5f63ddeba7226d81c55e8ca4ff",
+      "row_count": 480644,
+      "minimum_date": "2007-01-02",
+      "maximum_date": "2007-12-31"
+    },
+    {
+      "year": 2008,
+      "local_filename": "cars_2008.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2008.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:46.943439+00:00",
+      "file_size_bytes": 579711,
+      "sha256": "a1fc2ce758ce60294c6deae6ec28c6ec14afb3fe81a83dc46e540812249e7186",
+      "row_count": 551099,
+      "minimum_date": "2008-01-01",
+      "maximum_date": "2008-12-31"
+    },
+    {
+      "year": 2009,
+      "local_filename": "cars_2009.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2009.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:47.116722+00:00",
+      "file_size_bytes": 571698,
+      "sha256": "6f50c1fb96c991e3939c9b0598bf3a570d1858da66958ba7cac0165d3f696e8a",
+      "row_count": 539187,
+      "minimum_date": "2009-01-01",
+      "maximum_date": "2009-12-31"
+    },
+    {
+      "year": 2010,
+      "local_filename": "cars_2010.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2010.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:47.331083+00:00",
+      "file_size_bytes": 636563,
+      "sha256": "1cd82dc8eaf6bda6404141e12eecafba8ad6106d46c2f80f03f4729db4f3f3fa",
+      "row_count": 608561,
+      "minimum_date": "2010-01-01",
+      "maximum_date": "2010-12-30"
+    },
+    {
+      "year": 2011,
+      "local_filename": "cars_2011.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2011.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:47.533705+00:00",
+      "file_size_bytes": 636174,
+      "sha256": "905847ed8fad342b84231295a4b0703f9d9b89ad14b640b3fccda2ab113451fc",
+      "row_count": 607491,
+      "minimum_date": "2011-01-03",
+      "maximum_date": "2011-12-30"
+    },
+    {
+      "year": 2012,
+      "local_filename": "cars_2012.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2012.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:47.708918+00:00",
+      "file_size_bytes": 673809,
+      "sha256": "7db787288fff8d5a8c91b8c3896b3ba548b2467d7af56435f183e669128a7fd7",
+      "row_count": 633063,
+      "minimum_date": "2012-01-01",
+      "maximum_date": "2012-12-31"
+    },
+    {
+      "year": 2013,
+      "local_filename": "cars_2013.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2013.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:47.851478+00:00",
+      "file_size_bytes": 711564,
+      "sha256": "5dcd29dfe501a56a91cf36da161db5551102f21b0990cc8d2d340b718f9a2f3b",
+      "row_count": 664711,
+      "minimum_date": "2013-01-01",
+      "maximum_date": "2013-12-31"
+    },
+    {
+      "year": 2014,
+      "local_filename": "cars_2014.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2014.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:48.037698+00:00",
+      "file_size_bytes": 745424,
+      "sha256": "4f73f9981f555744b0c20f019eda6eb70f6fcc05df43ce43da9ed3c697d36728",
+      "row_count": 677214,
+      "minimum_date": "2014-01-01",
+      "maximum_date": "2014-12-31"
+    },
+    {
+      "year": 2015,
+      "local_filename": "cars_2015.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2015.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:48.183545+00:00",
+      "file_size_bytes": 659719,
+      "sha256": "2a3aa4f923c49488798924595dc3b15764eef6382ba03ac99d6942adfe6e435c",
+      "row_count": 678031,
+      "minimum_date": "2015-01-01",
+      "maximum_date": "2015-12-31"
+    },
+    {
+      "year": 2016,
+      "local_filename": "cars_2016.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2016.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:48.365877+00:00",
+      "file_size_bytes": 544727,
+      "sha256": "27b690df399b5d48dedaef7597b1832dc6cf6c3457b87fe6f2948a41ec9f416f",
+      "row_count": 588054,
+      "minimum_date": "2016-01-01",
+      "maximum_date": "2016-12-31"
+    },
+    {
+      "year": 2017,
+      "local_filename": "cars_2017.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2017.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:48.549168+00:00",
+      "file_size_bytes": 511199,
+      "sha256": "99c92bb812e942bd6e6c8c252858c4fd3840b5335136d0ee734165a101f4dc99",
+      "row_count": 579618,
+      "minimum_date": "2017-01-01",
+      "maximum_date": "2017-12-31"
+    },
+    {
+      "year": 2018,
+      "local_filename": "cars_2018.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2018.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:48.720332+00:00",
+      "file_size_bytes": 509893,
+      "sha256": "d5023b90474c665ac4adb1749219ef607eefa79423a4b9221b87843e806f07f7",
+      "row_count": 608982,
+      "minimum_date": "2018-01-01",
+      "maximum_date": "2018-12-31"
+    },
+    {
+      "year": 2019,
+      "local_filename": "cars_2019.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2019.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:48.873698+00:00",
+      "file_size_bytes": 508654,
+      "sha256": "6639b1abd43d86f5053fdac18f5bf33fa2cc746cba410f76541f012c230260a4",
+      "row_count": 612963,
+      "minimum_date": "2019-01-01",
+      "maximum_date": "2019-12-31"
+    },
+    {
+      "year": 2020,
+      "local_filename": "cars_2020.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2020.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:48.988996+00:00",
+      "file_size_bytes": 435664,
+      "sha256": "98ac675be551c83858b0646f6e89400bf9ccb7c7050465d38190deea82cec838",
+      "row_count": 552345,
+      "minimum_date": "2020-01-01",
+      "maximum_date": "2020-12-31"
+    },
+    {
+      "year": 2021,
+      "local_filename": "cars_2021.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2021.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:49.169709+00:00",
+      "file_size_bytes": 423032,
+      "sha256": "9962ffe893d325bf91af92507fdcce1345b5109336822caf12453459a243318b",
+      "row_count": 530046,
+      "minimum_date": "2021-01-01",
+      "maximum_date": "2021-12-31"
+    },
+    {
+      "year": 2022,
+      "local_filename": "cars_2022.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2022.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:49.308690+00:00",
+      "file_size_bytes": 577372,
+      "sha256": "66a915fbe6eeaffa9fc560fc64810b775a26ee2c3c43e9407810cb84f3d431ea",
+      "row_count": 744752,
+      "minimum_date": "2022-01-01",
+      "maximum_date": "2022-12-31"
+    },
+    {
+      "year": 2023,
+      "local_filename": "cars_2023.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2023.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:49.549681+00:00",
+      "file_size_bytes": 650201,
+      "sha256": "d41e3c0942024caf3b5f60f506397b28550b5bdd1a18750542271e663021f7fb",
+      "row_count": 832329,
+      "minimum_date": "2023-01-01",
+      "maximum_date": "2023-12-31"
+    },
+    {
+      "year": 2024,
+      "local_filename": "cars_2024.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2024.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:49.734664+00:00",
+      "file_size_bytes": 647967,
+      "sha256": "b7d52d10e9065c3ac27ac282158abec60ca88ee3f6afdd9cc3324a4ab8cb4970",
+      "row_count": 856237,
+      "minimum_date": "2024-01-01",
+      "maximum_date": "2024-12-31"
+    },
+    {
+      "year": 2025,
+      "local_filename": "cars_2025.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2025.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:49.884458+00:00",
+      "file_size_bytes": 670447,
+      "sha256": "bde5d31a7ed5121dcac2ec9920ae587e936cb579f71c79a1222ce62d6cae13d1",
+      "row_count": 870188,
+      "minimum_date": "2025-01-01",
+      "maximum_date": "2025-12-31"
+    },
+    {
+      "year": 2026,
+      "local_filename": "cars_2026.parquet",
+      "source_url": "https://storage.data.gov.my/transportation/cars_2026.parquet",
+      "acquisition": "downloaded",
+      "download_timestamp": "2026-09-29T09:23:50.037217+00:00",
+      "file_size_bytes": 447966,
+      "sha256": "9fe68646a8b732832d2193c7090890727b34cbf056ecbc4f4d891c91de4072de",
+      "row_count": 566616,
+      "minimum_date": "2026-01-01",
+      "maximum_date": "2026-08-31"
+    }
+  ],
+  "row_counts": {
+    "total": 15950189,
+    "by_year": {
+      "2000": 352355,
+      "2001": 406148,
+      "2002": 446610,
+      "2003": 431669,
+      "2004": 489224,
+      "2005": 566565,
+      "2006": 475487,
+      "2007": 480644,
+      "2008": 551099,
+      "2009": 539187,
+      "2010": 608561,
+      "2011": 607491,
+      "2012": 633063,
+      "2013": 664711,
+      "2014": 677214,
+      "2015": 678031,
+      "2016": 588054,
+      "2017": 579618,
+      "2018": 608982,
+      "2019": 612963,
+      "2020": 552345,
+      "2021": 530046,
+      "2022": 744752,
+      "2023": 832329,
+      "2024": 856237,
+      "2025": 870188,
+      "2026": 566616
+    },
+    "by_month": {
+      "2000-01": 25362,
+      "2000-02": 23442,
+      "2000-03": 31389,
+      "2000-04": 29039,
+      "2000-05": 30597,
+      "2000-06": 28504,
+      "2000-07": 31509,
+      "2000-08": 32081,
+      "2000-09": 27901,
+      "2000-10": 31173,
+      "2000-11": 32100,
+      "2000-12": 29258,
+      "2001-01": 27467,
+      "2001-02": 29769,
+      "2001-03": 31424,
+      "2001-04": 31699,
+      "2001-05": 33496,
+      "2001-06": 32261,
+      "2001-07": 35811,
+      "2001-08": 38436,
+      "2001-09": 35369,
+      "2001-10": 41370,
+      "2001-11": 39439,
+      "2001-12": 29607,
+      "2002-01": 41563,
+      "2002-02": 30933,
+      "2002-03": 36481,
+      "2002-04": 39477,
+      "2002-05": 39145,
+      "2002-06": 35572,
+      "2002-07": 42180,
+      "2002-08": 42083,
+      "2002-09": 33885,
+      "2002-10": 40478,
+      "2002-11": 37958,
+      "2002-12": 26855,
+      "2003-01": 45485,
+      "2003-02": 25726,
+      "2003-03": 36673,
+      "2003-04": 35883,
+      "2003-05": 34374,
+      "2003-06": 34452,
+      "2003-07": 41194,
+      "2003-08": 38999,
+      "2003-09": 35912,
+      "2003-10": 37792,
+      "2003-11": 33842,
+      "2003-12": 31337,
+      "2004-01": 34867,
+      "2004-02": 29907,
+      "2004-03": 41977,
+      "2004-04": 40879,
+      "2004-05": 37296,
+      "2004-06": 45467,
+      "2004-07": 48943,
+      "2004-08": 41273,
+      "2004-09": 43725,
+      "2004-10": 44911,
+      "2004-11": 36161,
+      "2004-12": 43818,
+      "2005-01": 43222,
+      "2005-02": 36332,
+      "2005-03": 48912,
+      "2005-04": 44506,
+      "2005-05": 45493,
+      "2005-06": 49371,
+      "2005-07": 46646,
+      "2005-08": 51745,
+      "2005-09": 51200,
+      "2005-10": 59036,
+      "2005-11": 39117,
+      "2005-12": 50985,
+      "2006-01": 39629,
+      "2006-02": 33498,
+      "2006-03": 44881,
+      "2006-04": 39432,
+      "2006-05": 43017,
+      "2006-06": 41136,
+      "2006-07": 39452,
+      "2006-08": 46223,
+      "2006-09": 41657,
+      "2006-10": 35216,
+      "2006-11": 35218,
+      "2006-12": 36128,
+      "2007-01": 34952,
+      "2007-02": 31545,
+      "2007-03": 37051,
+      "2007-04": 32294,
+      "2007-05": 38556,
+      "2007-06": 42578,
+      "2007-07": 44777,
+      "2007-08": 47817,
+      "2007-09": 43911,
+      "2007-10": 42612,
+      "2007-11": 43497,
+      "2007-12": 41054,
+      "2008-01": 46388,
+      "2008-02": 37997,
+      "2008-03": 45966,
+      "2008-04": 50591,
+      "2008-05": 49292,
+      "2008-06": 49679,
+      "2008-07": 55591,
+      "2008-08": 45108,
+      "2008-09": 52600,
+      "2008-10": 36687,
+      "2008-11": 40529,
+      "2008-12": 40671,
+      "2009-01": 39702,
+      "2009-02": 36239,
+      "2009-03": 45049,
+      "2009-04": 41453,
+      "2009-05": 44730,
+      "2009-06": 45240,
+      "2009-07": 52198,
+      "2009-08": 49129,
+      "2009-09": 46879,
+      "2009-10": 46119,
+      "2009-11": 45332,
+      "2009-12": 47117,
+      "2010-01": 51510,
+      "2010-02": 40907,
+      "2010-03": 57095,
+      "2010-04": 48536,
+      "2010-05": 51548,
+      "2010-06": 54579,
+      "2010-07": 53033,
+      "2010-08": 55475,
+      "2010-09": 44197,
+      "2010-10": 52136,
+      "2010-11": 43905,
+      "2010-12": 55640,
+      "2011-01": 58592,
+      "2011-02": 39536,
+      "2011-03": 64245,
+      "2011-04": 51249,
+      "2011-05": 46492,
+      "2011-06": 42829,
+      "2011-07": 50009,
+      "2011-08": 60644,
+      "2011-09": 43623,
+      "2011-10": 53950,
+      "2011-11": 48667,
+      "2011-12": 47655,
+      "2012-01": 43011,
+      "2012-02": 44057,
+      "2012-03": 54415,
+      "2012-04": 48084,
+      "2012-05": 59166,
+      "2012-06": 56536,
+      "2012-07": 60338,
+      "2012-08": 53495,
+      "2012-09": 45910,
+      "2012-10": 54920,
+      "2012-11": 52339,
+      "2012-12": 60792,
+      "2013-01": 58008,
+      "2013-02": 46308,
+      "2013-03": 58041,
+      "2013-04": 54353,
+      "2013-05": 49135,
+      "2013-06": 53618,
+      "2013-07": 71462,
+      "2013-08": 52160,
+      "2013-09": 54229,
+      "2013-10": 56597,
+      "2013-11": 52027,
+      "2013-12": 58773,
+      "2014-01": 56310,
+      "2014-02": 48460,
+      "2014-03": 58664,
+      "2014-04": 60521,
+      "2014-05": 56696,
+      "2014-06": 58133,
+      "2014-07": 64439,
+      "2014-08": 50880,
+      "2014-09": 48659,
+      "2014-10": 56209,
+      "2014-11": 53403,
+      "2014-12": 64840,
+      "2015-01": 53766,
+      "2015-02": 52352,
+      "2015-03": 69651,
+      "2015-04": 44771,
+      "2015-05": 51728,
+      "2015-06": 58292,
+      "2015-07": 60514,
+      "2015-08": 53670,
+      "2015-09": 51773,
+      "2015-10": 56300,
+      "2015-11": 55895,
+      "2015-12": 69319,
+      "2016-01": 47772,
+      "2016-02": 38446,
+      "2016-03": 50049,
+      "2016-04": 42701,
+      "2016-05": 44792,
+      "2016-06": 58722,
+      "2016-07": 42866,
+      "2016-08": 52976,
+      "2016-09": 48770,
+      "2016-10": 48319,
+      "2016-11": 48836,
+      "2016-12": 63805,
+      "2017-01": 46231,
+      "2017-02": 42428,
+      "2017-03": 54981,
+      "2017-04": 42554,
+      "2017-05": 51246,
+      "2017-06": 51488,
+      "2017-07": 48069,
+      "2017-08": 52707,
+      "2017-09": 40289,
+      "2017-10": 46921,
+      "2017-11": 49145,
+      "2017-12": 53559,
+      "2018-01": 47160,
+      "2018-02": 41705,
+      "2018-03": 49809,
+      "2018-04": 47834,
+      "2018-05": 44598,
+      "2018-06": 65460,
+      "2018-07": 70867,
+      "2018-08": 70505,
+      "2018-09": 31007,
+      "2018-10": 46622,
+      "2018-11": 46471,
+      "2018-12": 46944,
+      "2019-01": 50738,
+      "2019-02": 38730,
+      "2019-03": 54999,
+      "2019-04": 51232,
+      "2019-05": 63077,
+      "2019-06": 41501,
+      "2019-07": 53057,
+      "2019-08": 52287,
+      "2019-09": 45403,
+      "2019-10": 54110,
+      "2019-11": 52630,
+      "2019-12": 55199,
+      "2020-01": 47597,
+      "2020-02": 43274,
+      "2020-03": 23043,
+      "2020-04": 129,
+      "2020-05": 24399,
+      "2020-06": 46599,
+      "2020-07": 62421,
+      "2020-08": 55664,
+      "2020-09": 60200,
+      "2020-10": 59513,
+      "2020-11": 59024,
+      "2020-12": 70482,
+      "2021-01": 35102,
+      "2021-02": 44412,
+      "2021-03": 66243,
+      "2021-04": 60957,
+      "2021-05": 49505,
+      "2021-06": 2063,
+      "2021-07": 8399,
+      "2021-08": 19152,
+      "2021-09": 46045,
+      "2021-10": 67213,
+      "2021-11": 62886,
+      "2021-12": 68069,
+      "2022-01": 44565,
+      "2022-02": 46100,
+      "2022-03": 73412,
+      "2022-04": 61329,
+      "2022-05": 52933,
+      "2022-06": 65708,
+      "2022-07": 53223,
+      "2022-08": 70447,
+      "2022-09": 68305,
+      "2022-10": 64367,
+      "2022-11": 68149,
+      "2022-12": 76214,
+      "2023-01": 53690,
+      "2023-02": 66163,
+      "2023-03": 79947,
+      "2023-04": 51480,
+      "2023-05": 66651,
+      "2023-06": 63920,
+      "2023-07": 67982,
+      "2023-08": 76617,
+      "2023-09": 69019,
+      "2023-10": 79463,
+      "2023-11": 76747,
+      "2023-12": 80650,
+      "2024-01": 70183,
+      "2024-02": 66934,
+      "2024-03": 75063,
+      "2024-04": 63522,
+      "2024-05": 73900,
+      "2024-06": 61202,
+      "2024-07": 77024,
+      "2024-08": 76064,
+      "2024-09": 61071,
+      "2024-10": 75037,
+      "2024-11": 71812,
+      "2024-12": 84425,
+      "2025-01": 53926,
+      "2025-02": 67320,
+      "2025-03": 77103,
+      "2025-04": 65190,
+      "2025-05": 74381,
+      "2025-06": 58840,
+      "2025-07": 75635,
+      "2025-08": 78970,
+      "2025-09": 62587,
+      "2025-10": 81404,
+      "2025-11": 77865,
+      "2025-12": 96967,
+      "2026-01": 67989,
+      "2026-02": 56683,
+      "2026-03": 67823,
+      "2026-04": 77819,
+      "2026-05": 66053,
+      "2026-06": 72943,
+      "2026-07": 80030,
+      "2026-08": 77276
+    },
+    "by_fuel": {
+      "petrol": 14403324,
+      "greendiesel": 1062440,
+      "hybrid_petrol": 205849,
+      "electric": 131117,
+      "diesel": 78130,
+      "petrol_ng": 65641,
+      "hybrid_diesel": 2797,
+      "ng": 695,
+      "petrol_lng": 85,
+      "greendiesel_ng": 55,
+      "diesel_ng": 23,
+      "other": 20,
+      "unknown": 7,
+      "hydrogen": 3,
+      "lng": 3
+    },
+    "by_state": {
+      "Rakan Niaga": 6746287,
+      "W.P. Kuala Lumpur": 3349968,
+      "Johor": 1119732,
+      "Pulau Pinang": 817469,
+      "Selangor": 725274,
+      "Sarawak": 676587,
+      "Sabah": 548696,
+      "Perak": 507641,
+      "Pahang": 277157,
+      "Melaka": 253762,
+      "Kedah": 248513,
+      "Kelantan": 232337,
+      "Negeri Sembilan": 223704,
+      "Terengganu": 156035,
+      "W.P. Labuan": 43796,
+      "Perlis": 22897,
+      "W.P. Putrajaya": 334
+    },
+    "by_maker": {
+      "Perodua": 5376247,
+      "Proton": 3672252,
+      "Toyota": 2455785,
+      "Honda": 1453848,
+      "Nissan": 595758,
+      "Mitsubishi": 269597,
+      "Mercedes Benz": 264471,
+      "Mazda": 203837,
+      "BMW": 198083,
+      "Ford": 160691,
+      "Naza": 139421,
+      "Kia": 122619,
+      "Isuzu": 122069,
+      "Hyundai": 107230,
+      "Volkswagen": 94986,
+      "Inokom": 92248,
+      "Chery": 89774,
+      "Suzuki": 61339,
+      "Lexus": 49788,
+      "Peugeot": 47046,
+      "Subaru": 35680,
+      "BYD": 34954,
+      "Volvo": 33435,
+      "Mini": 27028,
+      "Audi": 26863,
+      "Chevrolet": 25715,
+      "Porsche": 25341,
+      "Great Wall": 19651,
+      "Tesla": 18394,
+      "Land Rover": 17569,
+      "Jetour": 10249,
+      "Renault": 9888,
+      "Ssangyong": 8394,
+      "Zeekr": 5592,
+      "Citroen": 5445,
+      "MG": 5000,
+      "Cam": 4846,
+      "Weststar Maxus": 4366,
+      "Foton": 3974,
+      "GAC": 2860,
+      "Xpeng": 2853,
+      "Smart": 2765,
+      "Tata": 2585,
+      "Jaguar": 2580,
+      "Jinbei": 2365,
+      "Fiat": 2309,
+      "Leapmotor": 2041,
+      "Ferrari": 1859,
+      "Bentley": 1797,
+      "Lamborghini": 1706,
+      "Alfa Romeo": 1595,
+      "King Long Xiamen": 1580,
+      "Daihatsu": 1573,
+      "Denza": 1559,
+      "Farid": 1258,
+      "Maserati": 1195,
+      "Joylong": 956,
+      "Jeep": 924,
+      "Mahindra": 837,
+      "Rolls Royce": 811,
+      "Lotus": 784,
+      "Daimler": 775,
+      "Infiniti": 700,
+      "Skoda": 654,
+      "TQ Wuling": 640,
+      "Dong Feng": 608,
+      "Go Auto": 605,
+      "Neta": 578,
+      "Aston Martin": 393,
+      "Xiamen": 390,
+      "Changan": 387,
+      "Opel": 385,
+      "LMG": 383,
+      "Hummer": 380,
+      "Mitsuoka": 345,
+      "McLaren": 332,
+      "Daewoo": 329,
+      "Higer": 306,
+      "Bison": 277,
+      "Maxus": 275,
+      "Boon Koon": 265,
+      "BAW": 221,
+      "Rover": 202,
+      "MG Rover": 198,
+      "GAC Aion": 195,
+      "Saab": 189,
+      "Chrysler": 176,
+      "ZXAuto": 172,
+      "Yangtse": 161,
+      "Pinzgauer": 122,
+      "Huanghai": 116,
+      "Foday": 104,
+      "JAC": 98,
+      "Borgward": 90,
+      "Shineray": 72,
+      "TD Cars": 67,
+      "DS Automobiles": 64,
+      "Dodge": 61,
+      "Hicom": 53,
+      "JMS": 46,
+      "Mercedes-Maybach": 44,
+      "Cadillac": 43,
+      "Bufori Malaysia": 36,
+      "Brabus": 34,
+      "Holden": 25,
+      "Golden Dragon": 17,
+      "BAIC": 13,
+      "Iveco": 12,
+      "Malaysian Truck & Bus": 12,
+      "Austin": 11,
+      "DFSK": 11,
+      "Caterham": 9,
+      "Hitachi": 9,
+      "Lincoln": 9,
+      "Mclaren": 9,
+      "Pontiac": 9,
+      "TVR": 9,
+      "Asia": 8,
+      "KTM": 8,
+      "Lancia": 8,
+      "Morris": 8,
+      "Buick": 7,
+      "Triumph": 7,
+      "GMC": 6,
+      "Jeep Cherokee": 6,
+      "Chana": 5,
+      "Green Oranges": 5,
+      "Lepas": 5,
+      "Maybach": 5,
+      "Polestar": 5,
+      "Alpine": 4,
+      "JMC": 4,
+      "LEVC": 4,
+      "Morgan": 4,
+      "Rolls-Royce": 4,
+      "Vauxhall": 4,
+      "Vinfast": 4,
+      "Datsun": 3,
+      "Jaecoo": 3,
+      "Pettibone": 3,
+      "Sutton": 3,
+      "Willys": 3,
+      "Xinneng": 3,
+      "Ariel Leader": 2,
+      "Austin Healey": 2,
+      "Carbodies": 2,
+      "Dodge/Commer": 2,
+      "GAC Hyptec": 2,
+      "Genesis": 2,
+      "Hycann": 2,
+      "Microlino": 2,
+      "Nash": 2,
+      "Zhengzhou Nissan Automobile": 2,
+      "AK Sportscar": 1,
+      "Abarth": 1,
+      "Acura": 1,
+      "Allenbus": 1,
+      "Ambassador": 1,
+      "American Motor": 1,
+      "Asia Cab": 1,
+      "Automotive Con. Engineering": 1,
+      "Aveling Barford": 1,
+      "Barbieri": 1,
+      "Beauford": 1,
+      "Bmw": 1,
+      "Brushmobile": 1,
+      "Bugatti": 1,
+      "Calcott": 1,
+      "Cobra": 1,
+      "DMC": 1,
+      "Dadi": 1,
+      "Delorean": 1,
+      "EVEasy": 1,
+      "Firama Engineering Sdn. Bhd.": 1,
+      "Flistar": 1,
+      "GAC Motor": 1,
+      "Goldhofer": 1,
+      "Hillman": 1,
+      "Hino": 1,
+      "Ineos": 1,
+      "Kennedy": 1,
+      "Koa": 1,
+      "Lada Niva": 1,
+      "Lagonda": 1,
+      "MZ Motorrad": 1,
+      "Man": 1,
+      "Marcos": 1,
+      "Oldsmobile": 1,
+      "Panther": 1,
+      "Pilgrim Sumo": 1,
+      "Ruf": 1,
+      "Rugby": 1,
+      "Saina": 1,
+      "Scania": 1,
+      "Seres": 1,
+      "Skyworth": 1,
+      "Standard": 1,
+      "Steyr-Puch": 1,
+      "Togg": 1,
+      "Weststar LDV": 1,
+      "Xuzhou": 1,
+      "iCaur": 1
+    },
+    "by_type": {
+      "motokar": 11062335,
+      "jip": 1787309,
+      "motokar_pelbagai_utiliti": 1548313,
+      "pick_up": 949877,
+      "window_van": 602355
+    }
+  },
+  "schema": {
+    "expected_columns": [
+      "date_reg",
+      "type",
+      "maker",
+      "model",
+      "colour",
+      "fuel",
+      "state"
+    ],
+    "expected_physical_types": {
+      "date_reg": "timestamp[us]",
+      "type": "large_string",
+      "maker": "large_string",
+      "model": "large_string",
+      "colour": "large_string",
+      "fuel": "large_string",
+      "state": "large_string"
+    },
+    "column_roles": {
+      "date_reg": "Registration date. This may differ from a purchase date.",
+      "type": "Vehicle type.",
+      "maker": "Manufacturer.",
+      "model": "Model.",
+      "colour": "Broad colour.",
+      "fuel": "Source fuel code. greendiesel is retained as its own category.",
+      "state": "JPJ registration office, or the Rakan Niaga partner channel. Not a place of use."
+    },
+    "observed_by_file": [
+      {
+        "year": 2000,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2001,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2002,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2003,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2004,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2005,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2006,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2007,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2008,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2009,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2010,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2011,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2012,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2013,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2014,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2015,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2016,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2017,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2018,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2019,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2020,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2021,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2022,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2023,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2024,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2025,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      },
+      {
+        "year": 2026,
+        "column_names": [
+          "date_reg",
+          "type",
+          "maker",
+          "model",
+          "colour",
+          "fuel",
+          "state"
+        ],
+        "physical_types": {
+          "date_reg": "timestamp[us]",
+          "type": "large_string",
+          "maker": "large_string",
+          "model": "large_string",
+          "colour": "large_string",
+          "fuel": "large_string",
+          "state": "large_string"
+        },
+        "status": "PASS"
+      }
+    ]
+  },
+  "date_coverage": {
+    "min_date": "2000-01-02",
+    "max_date": "2026-08-31",
+    "month_count": 320,
+    "missing_months": [],
+    "distinct_dates": 8973,
+    "missing_day_count": 766,
+    "missing_days_sample": [
+      "2000-01-09",
+      "2000-02-05",
+      "2000-02-19",
+      "2000-03-16",
+      "2000-03-18",
+      "2000-04-01",
+      "2000-04-06",
+      "2000-04-15",
+      "2000-05-01",
+      "2000-05-06",
+      "2000-05-18",
+      "2000-05-20",
+      "2000-06-10",
+      "2000-06-15",
+      "2000-06-17",
+      "2000-07-01",
+      "2000-07-15",
+      "2000-08-05",
+      "2000-08-19",
+      "2000-08-31"
+    ]
+  },
+  "null_profile": {
+    "date_reg": 0,
+    "type": 0,
+    "maker": 0,
+    "model": 0,
+    "colour": 0,
+    "fuel": 0,
+    "state": 0
+  },
+  "blank_profile": {
+    "type": 0,
+    "maker": 0,
+    "model": 0,
+    "colour": 0,
+    "fuel": 0,
+    "state": 0
+  },
+  "category_profile": {
+    "fuel": [
+      "petrol",
+      "greendiesel",
+      "hybrid_petrol",
+      "electric",
+      "diesel",
+      "petrol_ng",
+      "hybrid_diesel",
+      "ng",
+      "petrol_lng",
+      "greendiesel_ng",
+      "diesel_ng",
+      "other",
+      "unknown",
+      "hydrogen",
+      "lng"
+    ],
+    "type": [
+      "motokar",
+      "jip",
+      "motokar_pelbagai_utiliti",
+      "pick_up",
+      "window_van"
+    ],
+    "state": [
+      "Rakan Niaga",
+      "W.P. Kuala Lumpur",
+      "Johor",
+      "Pulau Pinang",
+      "Selangor",
+      "Sarawak",
+      "Sabah",
+      "Perak",
+      "Pahang",
+      "Melaka",
+      "Kedah",
+      "Kelantan",
+      "Negeri Sembilan",
+      "Terengganu",
+      "W.P. Labuan",
+      "Perlis",
+      "W.P. Putrajaya"
+    ],
+    "maker_count": 202,
+    "model_count": 1660
+  },
+  "duplicate_profile": {
+    "distinct_signatures": 4816249,
+    "extra_duplicate_rows": 11133940,
+    "rows_in_duplicate_groups": 13046885,
+    "max_signature_frequency": 937,
+    "rows_were_deleted": false,
+    "global_totals_are_additive": true,
+    "by_year": {
+      "2000": {
+        "distinct_signatures": 127306,
+        "extra_duplicate_rows": 225049,
+        "rows_in_duplicate_groups": 276233,
+        "max_signature_frequency": 143
+      },
+      "2001": {
+        "distinct_signatures": 146402,
+        "extra_duplicate_rows": 259746,
+        "rows_in_duplicate_groups": 319072,
+        "max_signature_frequency": 122
+      },
+      "2002": {
+        "distinct_signatures": 160195,
+        "extra_duplicate_rows": 286415,
+        "rows_in_duplicate_groups": 351366,
+        "max_signature_frequency": 129
+      },
+      "2003": {
+        "distinct_signatures": 177034,
+        "extra_duplicate_rows": 254635,
+        "rows_in_duplicate_groups": 322256,
+        "max_signature_frequency": 198
+      },
+      "2004": {
+        "distinct_signatures": 210984,
+        "extra_duplicate_rows": 278240,
+        "rows_in_duplicate_groups": 358384,
+        "max_signature_frequency": 304
+      },
+      "2005": {
+        "distinct_signatures": 242851,
+        "extra_duplicate_rows": 323714,
+        "rows_in_duplicate_groups": 420089,
+        "max_signature_frequency": 205
+      },
+      "2006": {
+        "distinct_signatures": 216521,
+        "extra_duplicate_rows": 258966,
+        "rows_in_duplicate_groups": 341771,
+        "max_signature_frequency": 285
+      },
+      "2007": {
+        "distinct_signatures": 205184,
+        "extra_duplicate_rows": 275460,
+        "rows_in_duplicate_groups": 353271,
+        "max_signature_frequency": 127
+      },
+      "2008": {
+        "distinct_signatures": 218276,
+        "extra_duplicate_rows": 332823,
+        "rows_in_duplicate_groups": 421029,
+        "max_signature_frequency": 295
+      },
+      "2009": {
+        "distinct_signatures": 214185,
+        "extra_duplicate_rows": 325002,
+        "rows_in_duplicate_groups": 410265,
+        "max_signature_frequency": 169
+      },
+      "2010": {
+        "distinct_signatures": 232246,
+        "extra_duplicate_rows": 376315,
+        "rows_in_duplicate_groups": 473309,
+        "max_signature_frequency": 215
+      },
+      "2011": {
+        "distinct_signatures": 232719,
+        "extra_duplicate_rows": 374772,
+        "rows_in_duplicate_groups": 469884,
+        "max_signature_frequency": 189
+      },
+      "2012": {
+        "distinct_signatures": 245637,
+        "extra_duplicate_rows": 387426,
+        "rows_in_duplicate_groups": 488276,
+        "max_signature_frequency": 195
+      },
+      "2013": {
+        "distinct_signatures": 264559,
+        "extra_duplicate_rows": 400152,
+        "rows_in_duplicate_groups": 506979,
+        "max_signature_frequency": 227
+      },
+      "2014": {
+        "distinct_signatures": 247717,
+        "extra_duplicate_rows": 429497,
+        "rows_in_duplicate_groups": 525116,
+        "max_signature_frequency": 376
+      },
+      "2015": {
+        "distinct_signatures": 183318,
+        "extra_duplicate_rows": 494713,
+        "rows_in_duplicate_groups": 560713,
+        "max_signature_frequency": 486
+      },
+      "2016": {
+        "distinct_signatures": 151404,
+        "extra_duplicate_rows": 436650,
+        "rows_in_duplicate_groups": 491731,
+        "max_signature_frequency": 430
+      },
+      "2017": {
+        "distinct_signatures": 141184,
+        "extra_duplicate_rows": 438434,
+        "rows_in_duplicate_groups": 493231,
+        "max_signature_frequency": 468
+      },
+      "2018": {
+        "distinct_signatures": 133836,
+        "extra_duplicate_rows": 475146,
+        "rows_in_duplicate_groups": 530815,
+        "max_signature_frequency": 822
+      },
+      "2019": {
+        "distinct_signatures": 127149,
+        "extra_duplicate_rows": 485814,
+        "rows_in_duplicate_groups": 538990,
+        "max_signature_frequency": 662
+      },
+      "2020": {
+        "distinct_signatures": 108276,
+        "extra_duplicate_rows": 444069,
+        "rows_in_duplicate_groups": 486124,
+        "max_signature_frequency": 650
+      },
+      "2021": {
+        "distinct_signatures": 107328,
+        "extra_duplicate_rows": 422718,
+        "rows_in_duplicate_groups": 466697,
+        "max_signature_frequency": 591
+      },
+      "2022": {
+        "distinct_signatures": 136284,
+        "extra_duplicate_rows": 608468,
+        "rows_in_duplicate_groups": 664173,
+        "max_signature_frequency": 802
+      },
+      "2023": {
+        "distinct_signatures": 155353,
+        "extra_duplicate_rows": 676976,
+        "rows_in_duplicate_groups": 741043,
+        "max_signature_frequency": 623
+      },
+      "2024": {
+        "distinct_signatures": 158556,
+        "extra_duplicate_rows": 697681,
+        "rows_in_duplicate_groups": 761652,
+        "max_signature_frequency": 633
+      },
+      "2025": {
+        "distinct_signatures": 162386,
+        "extra_duplicate_rows": 707802,
+        "rows_in_duplicate_groups": 772990,
+        "max_signature_frequency": 937
+      },
+      "2026": {
+        "distinct_signatures": 109359,
+        "extra_duplicate_rows": 457257,
+        "rows_in_duplicate_groups": 501426,
+        "max_signature_frequency": 809
+      }
+    },
+    "note": "Identical source rows were counted and retained. There is no vehicle or transaction identifier, so matching rows are indistinguishable registration transactions rather than rows to delete. Yearly signature counts are added together because date_reg is part of the signature and each date_reg year matches its file year."
+  },
+  "known_observations": [
+    {
+      "id": "duplicates",
+      "status": "PASS",
+      "message": "Identical source rows were counted and retained. There is no vehicle or transaction identifier, so matching rows are indistinguishable registration transactions rather than rows to delete. Yearly signature counts are added together because date_reg is part of the signature and each date_reg year matches its file year.",
+      "details": {
+        "distinct_signatures": 4816249,
+        "extra_duplicate_rows": 11133940,
+        "rows_in_duplicate_groups": 13046885,
+        "max_signature_frequency": 937,
+        "rows_were_deleted": false
+      }
+    },
+    {
+      "id": "partial_latest_year",
+      "status": "WARN",
+      "message": "The latest date_reg is 2026-08-31. 2026 is a partial year and is not treated as a full calendar year.",
+      "details": {
+        "year": 2026,
+        "max_date": "2026-08-31",
+        "message": "The latest date_reg is 2026-08-31. 2026 is a partial year and is not treated as a full calendar year."
+      }
+    },
+    {
+      "id": "low_volume_months",
+      "status": "WARN",
+      "message": "Months below 10% of the median monthly count (4866.3): 2020-04 (129), 2021-06 (2063).",
+      "details": {
+        "fraction_of_median": 0.1,
+        "median_monthly_rows": 48663.0,
+        "threshold": 4866.3,
+        "months": {
+          "2020-04": 129,
+          "2021-06": 2063
+        }
+      }
+    },
+    {
+      "id": "missing_days",
+      "status": "PASS",
+      "message": "766 calendar days between 2000-01-02 and 2026-08-31 have no registration rows. Weekend and holiday gaps are expected and are not treated as missing files.",
+      "details": {
+        "missing_day_count": 766,
+        "sample": [
+          "2000-01-09",
+          "2000-02-05",
+          "2000-02-19",
+          "2000-03-16",
+          "2000-03-18",
+          "2000-04-01",
+          "2000-04-06",
+          "2000-04-15",
+          "2000-05-01",
+          "2000-05-06",
+          "2000-05-18",
+          "2000-05-20",
+          "2000-06-10",
+          "2000-06-15",
+          "2000-06-17",
+          "2000-07-01",
+          "2000-07-15",
+          "2000-08-05",
+          "2000-08-19",
+          "2000-08-31"
+        ]
+      }
+    },
+    {
+      "id": "rakan_niaga",
+      "status": "PASS",
+      "message": "Rakan Niaga accounts for 6746287 registration transactions and is retained as a channel, not a geographic state.",
+      "details": {
+        "rows": 6746287,
+        "by_year": {
+          "2000": 0,
+          "2001": 0,
+          "2002": 0,
+          "2003": 0,
+          "2004": 0,
+          "2005": 0,
+          "2006": 0,
+          "2007": 0,
+          "2008": 0,
+          "2009": 0,
+          "2010": 0,
+          "2011": 0,
+          "2012": 0,
+          "2013": 0,
+          "2014": 171649,
+          "2015": 435596,
+          "2016": 429835,
+          "2017": 464210,
+          "2018": 494492,
+          "2019": 509603,
+          "2020": 467515,
+          "2021": 453487,
+          "2022": 633706,
+          "2023": 710210,
+          "2024": 731072,
+          "2025": 749203,
+          "2026": 495709
+        }
+      }
+    },
+    {
+      "id": "greendiesel",
+      "status": "PASS",
+      "message": "greendiesel accounts for 1062440 registration transactions and is retained as its own fuel code.",
+      "details": {
+        "rows": 1062440,
+        "by_year": {
+          "2000": 10753,
+          "2001": 13372,
+          "2002": 14735,
+          "2003": 17428,
+          "2004": 23011,
+          "2005": 27205,
+          "2006": 26831,
+          "2007": 26727,
+          "2008": 30730,
+          "2009": 33517,
+          "2010": 45715,
+          "2011": 50865,
+          "2012": 58391,
+          "2013": 61317,
+          "2014": 60566,
+          "2015": 58821,
+          "2016": 49084,
+          "2017": 45696,
+          "2018": 49434,
+          "2019": 40007,
+          "2020": 35254,
+          "2021": 41266,
+          "2022": 59768,
+          "2023": 60958,
+          "2024": 51881,
+          "2025": 45422,
+          "2026": 23686
+        }
+      }
+    },
+    {
+      "id": "model_whitespace",
+      "status": "WARN",
+      "message": "Model values with surrounding whitespace: 30 rows.",
+      "details": {
+        "values": {
+          "'E Advance '": 29,
+          "'TF 160 '": 1
+        }
+      }
+    },
+    {
+      "id": "maker_spelling",
+      "status": "WARN",
+      "message": "Maker labels that collide after case-folding are reported and were not merged.",
+      "details": {
+        "collisions": [
+          {
+            "key": "bmw",
+            "variants": [
+              {
+                "value": "BMW",
+                "rows": 198083
+              },
+              {
+                "value": "Bmw",
+                "rows": 1
+              }
+            ]
+          },
+          {
+            "key": "mclaren",
+            "variants": [
+              {
+                "value": "McLaren",
+                "rows": 332
+              },
+              {
+                "value": "Mclaren",
+                "rows": 9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "unknown_model",
+      "status": "WARN",
+      "message": "Model values case-folding to 'unknown': 941 rows. They were not removed.",
+      "details": {
+        "unknown_exact": 941,
+        "unknown_casefold": 941
+      }
+    },
+    {
+      "id": "residual_fuel_codes",
+      "status": "WARN",
+      "message": "Fuel code other=20, unknown=7. These source codes were retained.",
+      "details": {
+        "other": 20,
+        "unknown": 7
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "positive_row_count",
+      "status": "PASS",
+      "message": "Profiled registration transactions: 15950189.",
+      "details": {}
+    },
+    {
+      "id": "raw_files_unchanged",
+      "status": "PASS",
+      "message": "Raw Parquet hashes were unchanged by validation.",
+      "details": {}
+    },
+    {
+      "id": "nulls",
+      "status": "PASS",
+      "message": "Null counts by column are recorded in null_profile.",
+      "details": {
+        "date_reg": 0,
+        "type": 0,
+        "maker": 0,
+        "model": 0,
+        "colour": 0,
+        "fuel": 0,
+        "state": 0
+      }
+    },
+    {
+      "id": "blanks",
+      "status": "PASS",
+      "message": "Blank-string counts by column are recorded in blank_profile.",
+      "details": {
+        "type": 0,
+        "maker": 0,
+        "model": 0,
+        "colour": 0,
+        "fuel": 0,
+        "state": 0
+      }
+    },
+    {
+      "id": "year_consistency",
+      "status": "PASS",
+      "message": "Rows whose date_reg year differs from the file year: 0.",
+      "details": {}
+    },
+    {
+      "id": "missing_months",
+      "status": "PASS",
+      "message": "No calendar month is missing between the first and last observed month.",
+      "details": {
+        "missing_months": []
+      }
+    },
+    {
+      "id": "category_reconciliation",
+      "status": "PASS",
+      "message": "Fuel, type, state, maker, and year counts each sum to the profiled row total.",
+      "details": {}
+    },
+    {
+      "id": "duplicates",
+      "status": "PASS",
+      "message": "Identical source rows were counted and retained. There is no vehicle or transaction identifier, so matching rows are indistinguishable registration transactions rather than rows to delete. Yearly signature counts are added together because date_reg is part of the signature and each date_reg year matches its file year.",
+      "details": {
+        "distinct_signatures": 4816249,
+        "extra_duplicate_rows": 11133940,
+        "rows_in_duplicate_groups": 13046885,
+        "max_signature_frequency": 937,
+        "rows_were_deleted": false
+      }
+    },
+    {
+      "id": "partial_latest_year",
+      "status": "WARN",
+      "message": "The latest date_reg is 2026-08-31. 2026 is a partial year and is not treated as a full calendar year.",
+      "details": {
+        "year": 2026,
+        "max_date": "2026-08-31",
+        "message": "The latest date_reg is 2026-08-31. 2026 is a partial year and is not treated as a full calendar year."
+      }
+    },
+    {
+      "id": "low_volume_months",
+      "status": "WARN",
+      "message": "Months below 10% of the median monthly count (4866.3): 2020-04 (129), 2021-06 (2063).",
+      "details": {
+        "fraction_of_median": 0.1,
+        "median_monthly_rows": 48663.0,
+        "threshold": 4866.3,
+        "months": {
+          "2020-04": 129,
+          "2021-06": 2063
+        }
+      }
+    },
+    {
+      "id": "missing_days",
+      "status": "PASS",
+      "message": "766 calendar days between 2000-01-02 and 2026-08-31 have no registration rows. Weekend and holiday gaps are expected and are not treated as missing files.",
+      "details": {
+        "missing_day_count": 766,
+        "sample": [
+          "2000-01-09",
+          "2000-02-05",
+          "2000-02-19",
+          "2000-03-16",
+          "2000-03-18",
+          "2000-04-01",
+          "2000-04-06",
+          "2000-04-15",
+          "2000-05-01",
+          "2000-05-06",
+          "2000-05-18",
+          "2000-05-20",
+          "2000-06-10",
+          "2000-06-15",
+          "2000-06-17",
+          "2000-07-01",
+          "2000-07-15",
+          "2000-08-05",
+          "2000-08-19",
+          "2000-08-31"
+        ]
+      }
+    },
+    {
+      "id": "rakan_niaga",
+      "status": "PASS",
+      "message": "Rakan Niaga accounts for 6746287 registration transactions and is retained as a channel, not a geographic state.",
+      "details": {
+        "rows": 6746287,
+        "by_year": {
+          "2000": 0,
+          "2001": 0,
+          "2002": 0,
+          "2003": 0,
+          "2004": 0,
+          "2005": 0,
+          "2006": 0,
+          "2007": 0,
+          "2008": 0,
+          "2009": 0,
+          "2010": 0,
+          "2011": 0,
+          "2012": 0,
+          "2013": 0,
+          "2014": 171649,
+          "2015": 435596,
+          "2016": 429835,
+          "2017": 464210,
+          "2018": 494492,
+          "2019": 509603,
+          "2020": 467515,
+          "2021": 453487,
+          "2022": 633706,
+          "2023": 710210,
+          "2024": 731072,
+          "2025": 749203,
+          "2026": 495709
+        }
+      }
+    },
+    {
+      "id": "greendiesel",
+      "status": "PASS",
+      "message": "greendiesel accounts for 1062440 registration transactions and is retained as its own fuel code.",
+      "details": {
+        "rows": 1062440,
+        "by_year": {
+          "2000": 10753,
+          "2001": 13372,
+          "2002": 14735,
+          "2003": 17428,
+          "2004": 23011,
+          "2005": 27205,
+          "2006": 26831,
+          "2007": 26727,
+          "2008": 30730,
+          "2009": 33517,
+          "2010": 45715,
+          "2011": 50865,
+          "2012": 58391,
+          "2013": 61317,
+          "2014": 60566,
+          "2015": 58821,
+          "2016": 49084,
+          "2017": 45696,
+          "2018": 49434,
+          "2019": 40007,
+          "2020": 35254,
+          "2021": 41266,
+          "2022": 59768,
+          "2023": 60958,
+          "2024": 51881,
+          "2025": 45422,
+          "2026": 23686
+        }
+      }
+    },
+    {
+      "id": "model_whitespace",
+      "status": "WARN",
+      "message": "Model values with surrounding whitespace: 30 rows.",
+      "details": {
+        "values": {
+          "'E Advance '": 29,
+          "'TF 160 '": 1
+        }
+      }
+    },
+    {
+      "id": "maker_spelling",
+      "status": "WARN",
+      "message": "Maker labels that collide after case-folding are reported and were not merged.",
+      "details": {
+        "collisions": [
+          {
+            "key": "bmw",
+            "variants": [
+              {
+                "value": "BMW",
+                "rows": 198083
+              },
+              {
+                "value": "Bmw",
+                "rows": 1
+              }
+            ]
+          },
+          {
+            "key": "mclaren",
+            "variants": [
+              {
+                "value": "McLaren",
+                "rows": 332
+              },
+              {
+                "value": "Mclaren",
+                "rows": 9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "unknown_model",
+      "status": "WARN",
+      "message": "Model values case-folding to 'unknown': 941 rows. They were not removed.",
+      "details": {
+        "unknown_exact": 941,
+        "unknown_casefold": 941
+      }
+    },
+    {
+      "id": "residual_fuel_codes",
+      "status": "WARN",
+      "message": "Fuel code other=20, unknown=7. These source codes were retained.",
+      "details": {
+        "other": 20,
+        "unknown": 7
+      }
+    },
+    {
+      "id": "unexpected_raw_files",
+      "status": "PASS",
+      "message": "No unexpected Parquet files were found in data/raw.",
+      "details": {
+        "files": []
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "partial_latest_year",
+      "status": "WARN",
+      "message": "The latest date_reg is 2026-08-31. 2026 is a partial year and is not treated as a full calendar year.",
+      "details": {
+        "year": 2026,
+        "max_date": "2026-08-31",
+        "message": "The latest date_reg is 2026-08-31. 2026 is a partial year and is not treated as a full calendar year."
+      }
+    },
+    {
+      "id": "low_volume_months",
+      "status": "WARN",
+      "message": "Months below 10% of the median monthly count (4866.3): 2020-04 (129), 2021-06 (2063).",
+      "details": {
+        "fraction_of_median": 0.1,
+        "median_monthly_rows": 48663.0,
+        "threshold": 4866.3,
+        "months": {
+          "2020-04": 129,
+          "2021-06": 2063
+        }
+      }
+    },
+    {
+      "id": "model_whitespace",
+      "status": "WARN",
+      "message": "Model values with surrounding whitespace: 30 rows.",
+      "details": {
+        "values": {
+          "'E Advance '": 29,
+          "'TF 160 '": 1
+        }
+      }
+    },
+    {
+      "id": "maker_spelling",
+      "status": "WARN",
+      "message": "Maker labels that collide after case-folding are reported and were not merged.",
+      "details": {
+        "collisions": [
+          {
+            "key": "bmw",
+            "variants": [
+              {
+                "value": "BMW",
+                "rows": 198083
+              },
+              {
+                "value": "Bmw",
+                "rows": 1
+              }
+            ]
+          },
+          {
+            "key": "mclaren",
+            "variants": [
+              {
+                "value": "McLaren",
+                "rows": 332
+              },
+              {
+                "value": "Mclaren",
+                "rows": 9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "unknown_model",
+      "status": "WARN",
+      "message": "Model values case-folding to 'unknown': 941 rows. They were not removed.",
+      "details": {
+        "unknown_exact": 941,
+        "unknown_casefold": 941
+      }
+    },
+    {
+      "id": "residual_fuel_codes",
+      "status": "WARN",
+      "message": "Fuel code other=20, unknown=7. These source codes were retained.",
+      "details": {
+        "other": 20,
+        "unknown": 7
+      }
+    }
+  ],
+  "errors": [],
+  "complete": true
+}

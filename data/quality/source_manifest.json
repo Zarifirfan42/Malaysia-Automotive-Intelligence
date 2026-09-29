@@ -1,0 +1,1575 @@
+{
+  "dataset_id": "registration_transactions_car",
+  "dataset_name": "Car Registration Transactions",
+  "catalogue_url": "https://data.gov.my/data-catalogue/registration_transactions_car",
+  "generated_at": "2026-09-29T09:27:10.734734+00:00",
+  "complete": true,
+  "files": [
+    {
+      "year": 2000,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2000.parquet",
+      "local_filename": "cars_2000.parquet",
+      "download_timestamp": "2026-09-29T09:23:45.520099+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 370059,
+      "sha256": "e0bfc392c10adeca9744692f7bdb7e0a0f2efbd746866f9e79dcaec7b9f5ec83",
+      "row_count": 352355,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2000-01-02",
+      "maximum_date": "2000-12-31"
+    },
+    {
+      "year": 2001,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2001.parquet",
+      "local_filename": "cars_2001.parquet",
+      "download_timestamp": "2026-09-29T09:23:45.703032+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 422086,
+      "sha256": "8d452f320e52c3e5286cb1acaadd2da4a059041fca80a08160150d8cc14c0949",
+      "row_count": 406148,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2001-01-01",
+      "maximum_date": "2001-12-31"
+    },
+    {
+      "year": 2002,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2002.parquet",
+      "local_filename": "cars_2002.parquet",
+      "download_timestamp": "2026-09-29T09:23:45.854380+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 495301,
+      "sha256": "251c38faf47537e1ed973151c6c42d84157a60c619628400675b6a6bbc9fe3d8",
+      "row_count": 446610,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2002-01-01",
+      "maximum_date": "2002-12-31"
+    },
+    {
+      "year": 2003,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2003.parquet",
+      "local_filename": "cars_2003.parquet",
+      "download_timestamp": "2026-09-29T09:23:46.015559+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 486043,
+      "sha256": "e4b41f21aa8f8d2aa23ef2a43e8cc198bf7139c3775faf710780fa0a8a2c4f32",
+      "row_count": 431669,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2003-01-01",
+      "maximum_date": "2003-12-31"
+    },
+    {
+      "year": 2004,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2004.parquet",
+      "local_filename": "cars_2004.parquet",
+      "download_timestamp": "2026-09-29T09:23:46.231723+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 533103,
+      "sha256": "7e5dcced69426f29753bf41b68a7d4c1e6ce38c23246c0e4b8245eedb9c87173",
+      "row_count": 489224,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2004-01-01",
+      "maximum_date": "2004-12-31"
+    },
+    {
+      "year": 2005,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2005.parquet",
+      "local_filename": "cars_2005.parquet",
+      "download_timestamp": "2026-09-29T09:23:46.387899+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 613690,
+      "sha256": "a1f4f644d5383dae54ae17dad1896140942e9132415993c82d8d7be425cdd6cd",
+      "row_count": 566565,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2005-01-02",
+      "maximum_date": "2005-12-30"
+    },
+    {
+      "year": 2006,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2006.parquet",
+      "local_filename": "cars_2006.parquet",
+      "download_timestamp": "2026-09-29T09:23:46.599893+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 516752,
+      "sha256": "3bb773ad1dd46336ea48c2c06d256fbe75dd658e45b2cf10e3ab584680789dae",
+      "row_count": 475487,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2006-01-01",
+      "maximum_date": "2006-12-29"
+    },
+    {
+      "year": 2007,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2007.parquet",
+      "local_filename": "cars_2007.parquet",
+      "download_timestamp": "2026-09-29T09:23:46.759170+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 519807,
+      "sha256": "93bbd14e34671a534a54cd334b9ce42f8a75ac5f63ddeba7226d81c55e8ca4ff",
+      "row_count": 480644,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2007-01-02",
+      "maximum_date": "2007-12-31"
+    },
+    {
+      "year": 2008,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2008.parquet",
+      "local_filename": "cars_2008.parquet",
+      "download_timestamp": "2026-09-29T09:23:46.943439+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 579711,
+      "sha256": "a1fc2ce758ce60294c6deae6ec28c6ec14afb3fe81a83dc46e540812249e7186",
+      "row_count": 551099,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2008-01-01",
+      "maximum_date": "2008-12-31"
+    },
+    {
+      "year": 2009,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2009.parquet",
+      "local_filename": "cars_2009.parquet",
+      "download_timestamp": "2026-09-29T09:23:47.116722+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 571698,
+      "sha256": "6f50c1fb96c991e3939c9b0598bf3a570d1858da66958ba7cac0165d3f696e8a",
+      "row_count": 539187,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2009-01-01",
+      "maximum_date": "2009-12-31"
+    },
+    {
+      "year": 2010,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2010.parquet",
+      "local_filename": "cars_2010.parquet",
+      "download_timestamp": "2026-09-29T09:23:47.331083+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 636563,
+      "sha256": "1cd82dc8eaf6bda6404141e12eecafba8ad6106d46c2f80f03f4729db4f3f3fa",
+      "row_count": 608561,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2010-01-01",
+      "maximum_date": "2010-12-30"
+    },
+    {
+      "year": 2011,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2011.parquet",
+      "local_filename": "cars_2011.parquet",
+      "download_timestamp": "2026-09-29T09:23:47.533705+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 636174,
+      "sha256": "905847ed8fad342b84231295a4b0703f9d9b89ad14b640b3fccda2ab113451fc",
+      "row_count": 607491,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2011-01-03",
+      "maximum_date": "2011-12-30"
+    },
+    {
+      "year": 2012,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2012.parquet",
+      "local_filename": "cars_2012.parquet",
+      "download_timestamp": "2026-09-29T09:23:47.708918+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 673809,
+      "sha256": "7db787288fff8d5a8c91b8c3896b3ba548b2467d7af56435f183e669128a7fd7",
+      "row_count": 633063,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2012-01-01",
+      "maximum_date": "2012-12-31"
+    },
+    {
+      "year": 2013,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2013.parquet",
+      "local_filename": "cars_2013.parquet",
+      "download_timestamp": "2026-09-29T09:23:47.851478+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 711564,
+      "sha256": "5dcd29dfe501a56a91cf36da161db5551102f21b0990cc8d2d340b718f9a2f3b",
+      "row_count": 664711,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2013-01-01",
+      "maximum_date": "2013-12-31"
+    },
+    {
+      "year": 2014,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2014.parquet",
+      "local_filename": "cars_2014.parquet",
+      "download_timestamp": "2026-09-29T09:23:48.037698+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 745424,
+      "sha256": "4f73f9981f555744b0c20f019eda6eb70f6fcc05df43ce43da9ed3c697d36728",
+      "row_count": 677214,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2014-01-01",
+      "maximum_date": "2014-12-31"
+    },
+    {
+      "year": 2015,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2015.parquet",
+      "local_filename": "cars_2015.parquet",
+      "download_timestamp": "2026-09-29T09:23:48.183545+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 659719,
+      "sha256": "2a3aa4f923c49488798924595dc3b15764eef6382ba03ac99d6942adfe6e435c",
+      "row_count": 678031,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2015-01-01",
+      "maximum_date": "2015-12-31"
+    },
+    {
+      "year": 2016,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2016.parquet",
+      "local_filename": "cars_2016.parquet",
+      "download_timestamp": "2026-09-29T09:23:48.365877+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 544727,
+      "sha256": "27b690df399b5d48dedaef7597b1832dc6cf6c3457b87fe6f2948a41ec9f416f",
+      "row_count": 588054,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2016-01-01",
+      "maximum_date": "2016-12-31"
+    },
+    {
+      "year": 2017,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2017.parquet",
+      "local_filename": "cars_2017.parquet",
+      "download_timestamp": "2026-09-29T09:23:48.549168+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 511199,
+      "sha256": "99c92bb812e942bd6e6c8c252858c4fd3840b5335136d0ee734165a101f4dc99",
+      "row_count": 579618,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2017-01-01",
+      "maximum_date": "2017-12-31"
+    },
+    {
+      "year": 2018,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2018.parquet",
+      "local_filename": "cars_2018.parquet",
+      "download_timestamp": "2026-09-29T09:23:48.720332+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 509893,
+      "sha256": "d5023b90474c665ac4adb1749219ef607eefa79423a4b9221b87843e806f07f7",
+      "row_count": 608982,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2018-01-01",
+      "maximum_date": "2018-12-31"
+    },
+    {
+      "year": 2019,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2019.parquet",
+      "local_filename": "cars_2019.parquet",
+      "download_timestamp": "2026-09-29T09:23:48.873698+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 508654,
+      "sha256": "6639b1abd43d86f5053fdac18f5bf33fa2cc746cba410f76541f012c230260a4",
+      "row_count": 612963,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2019-01-01",
+      "maximum_date": "2019-12-31"
+    },
+    {
+      "year": 2020,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2020.parquet",
+      "local_filename": "cars_2020.parquet",
+      "download_timestamp": "2026-09-29T09:23:48.988996+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 435664,
+      "sha256": "98ac675be551c83858b0646f6e89400bf9ccb7c7050465d38190deea82cec838",
+      "row_count": 552345,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2020-01-01",
+      "maximum_date": "2020-12-31"
+    },
+    {
+      "year": 2021,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2021.parquet",
+      "local_filename": "cars_2021.parquet",
+      "download_timestamp": "2026-09-29T09:23:49.169709+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 423032,
+      "sha256": "9962ffe893d325bf91af92507fdcce1345b5109336822caf12453459a243318b",
+      "row_count": 530046,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2021-01-01",
+      "maximum_date": "2021-12-31"
+    },
+    {
+      "year": 2022,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2022.parquet",
+      "local_filename": "cars_2022.parquet",
+      "download_timestamp": "2026-09-29T09:23:49.308690+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 577372,
+      "sha256": "66a915fbe6eeaffa9fc560fc64810b775a26ee2c3c43e9407810cb84f3d431ea",
+      "row_count": 744752,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2022-01-01",
+      "maximum_date": "2022-12-31"
+    },
+    {
+      "year": 2023,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2023.parquet",
+      "local_filename": "cars_2023.parquet",
+      "download_timestamp": "2026-09-29T09:23:49.549681+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 650201,
+      "sha256": "d41e3c0942024caf3b5f60f506397b28550b5bdd1a18750542271e663021f7fb",
+      "row_count": 832329,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2023-01-01",
+      "maximum_date": "2023-12-31"
+    },
+    {
+      "year": 2024,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2024.parquet",
+      "local_filename": "cars_2024.parquet",
+      "download_timestamp": "2026-09-29T09:23:49.734664+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 647967,
+      "sha256": "b7d52d10e9065c3ac27ac282158abec60ca88ee3f6afdd9cc3324a4ab8cb4970",
+      "row_count": 856237,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2024-01-01",
+      "maximum_date": "2024-12-31"
+    },
+    {
+      "year": 2025,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2025.parquet",
+      "local_filename": "cars_2025.parquet",
+      "download_timestamp": "2026-09-29T09:23:49.884458+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 670447,
+      "sha256": "bde5d31a7ed5121dcac2ec9920ae587e936cb579f71c79a1222ce62d6cae13d1",
+      "row_count": 870188,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2025-01-01",
+      "maximum_date": "2025-12-31"
+    },
+    {
+      "year": 2026,
+      "source_url": "https://storage.data.gov.my/transportation/cars_2026.parquet",
+      "local_filename": "cars_2026.parquet",
+      "download_timestamp": "2026-09-29T09:23:50.037217+00:00",
+      "acquisition": "downloaded",
+      "file_size_bytes": 447966,
+      "sha256": "9fe68646a8b732832d2193c7090890727b34cbf056ecbc4f4d891c91de4072de",
+      "row_count": 566616,
+      "column_names": [
+        "date_reg",
+        "type",
+        "maker",
+        "model",
+        "colour",
+        "fuel",
+        "state"
+      ],
+      "schema": [
+        {
+          "name": "date_reg",
+          "type": "timestamp[us]",
+          "nullable": true
+        },
+        {
+          "name": "type",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "maker",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "model",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "colour",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "fuel",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "state",
+          "type": "large_string",
+          "nullable": true
+        }
+      ],
+      "minimum_date": "2026-01-01",
+      "maximum_date": "2026-08-31"
+    }
+  ]
+}
