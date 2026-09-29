@@ -50,19 +50,29 @@ The latest registration year is partial when its maximum `date_reg` is before 31
 pip install -r requirements.txt
 python -m src
 python -m src.transformation
+python -m src.analytical
 python -m pytest
 ```
 
 `python -m src --force` redownloads a readable raw file. A failed download stops Phase 1. Phase 2 stops if processed totals do not match the raw files.
+
+## Analytical layer
+
+Phase 3 adds DuckDB views over the processed Parquet. `fact_registrations` has one row per processed registration transaction and does not add a transaction id. Rebuild the gitignored database with `python -m src.analytical`. Definitions, share formulas, and the partial-year comparison are in `docs/phase3.md`.
+
+A registration share is group registrations divided by all recorded registrations in the same period. It is not a share of vehicle sales.
 
 ## Layout
 
 ```text
 data/raw/          official Parquet files, not committed
 data/processed/    one directory per registration year, Parquet not committed
-data/quality/      acquisition and transformation audits
+data/analytical/   gitignored DuckDB views, rebuilt from sql/
+data/quality/      acquisition, transformation, and reconciliation audits
+sql/               fact, analytical views, and validation queries
 src/ingestion/     download
 src/validation/    Phase 1 checks
 src/transformation Phase 2 cleaning
+src/analytical/    Phase 3 DuckDB build
 tests/             invariant tests
 ```

@@ -13,6 +13,8 @@ DATA_DIR = PROJECT_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 QUALITY_DIR = DATA_DIR / "quality"
+ANALYTICAL_DIR = DATA_DIR / "analytical"
+SQL_DIR = PROJECT_ROOT / "sql"
 
 DATASET_ID = "registration_transactions_car"
 DATASET_NAME = "Car Registration Transactions"
@@ -71,6 +73,9 @@ TRANSFORMATION_MAPPING_PATH = QUALITY_DIR / "transformation_mapping.csv"
 PHASE2_REPORT_JSON = QUALITY_DIR / "phase2_transformation_report.json"
 PHASE2_REPORT_MD = QUALITY_DIR / "phase2_transformation_report.md"
 PROCESSED_METADATA_PATH = PROCESSED_DIR / "dataset_metadata.json"
+DUCKDB_PATH = ANALYTICAL_DIR / "registrations.duckdb"
+PHASE3_REPORT_JSON = QUALITY_DIR / "phase3_reconciliation.json"
+PHASE3_REPORT_MD = QUALITY_DIR / "phase3_reconciliation.md"
 
 
 def dataset_years() -> tuple[int, ...]:

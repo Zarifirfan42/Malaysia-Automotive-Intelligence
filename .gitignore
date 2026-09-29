@@ -10,6 +10,10 @@ data/processed/**/*.partial
 data/processed/_building/
 data/processed/_previous/
 
+# DuckDB file is rebuilt by: python -m src.analytical
+data/analytical/*.duckdb
+data/analytical/*.duckdb.wal
+
 # Python
 __pycache__/
 *.py[cod]

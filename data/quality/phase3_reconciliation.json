@@ -1,0 +1,497 @@
+{
+  "dataset_id": "registration_transactions_car",
+  "phase": 3,
+  "status": "PASS",
+  "started_at": "2026-09-30T00:42:07+08:00",
+  "finished_at": "2026-09-30T00:42:10+08:00",
+  "phase2_rows": 15950189,
+  "phase3_fact_rows": 15950189,
+  "difference": 0,
+  "processed_parquet_files": 27,
+  "date_range": {
+    "minimum": "2000-01-02",
+    "maximum": "2026-08-31"
+  },
+  "models_with_multiple_manufacturers": 123,
+  "like_for_like": {
+    "latest_year": 2026,
+    "prior_year": 2025,
+    "through_month": 8,
+    "latest_year_is_partial": true,
+    "latest_month_is_partial": false,
+    "latest_date_reg": "2026-08-31 00:00:00",
+    "comparison_label": "January through August 2026 compared with January through August 2025. This is not a full-year comparison.",
+    "latest_period_registrations": 566616,
+    "prior_period_registrations": 551365,
+    "latest_period_electric_registrations": 47508,
+    "prior_period_electric_registrations": 23396,
+    "latest_period_hybrid_registrations": 34733,
+    "prior_period_hybrid_registrations": 19545,
+    "yoy_absolute_change": 15251,
+    "yoy_percentage_change": 0.02766044271943268,
+    "yoy_basis": "partial_year_like_for_like"
+  },
+  "checks": [
+    {
+      "name": "fact_row_count",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Phase 3 fact rows against the Phase 2 processed row count."
+    },
+    {
+      "name": "parquet_footer_row_count",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Fact rows against Parquet footer row counts. Footers do not load registration rows into Python."
+    },
+    {
+      "name": "direct_parquet_row_count",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Fact view rows against a direct read_parquet count."
+    },
+    {
+      "name": "date_minimum",
+      "expected": "2000-01-02",
+      "actual": "2000-01-02",
+      "difference": 0,
+      "status": "PASS",
+      "message": "Minimum registration date."
+    },
+    {
+      "name": "date_maximum",
+      "expected": "2026-08-31",
+      "actual": "2026-08-31",
+      "difference": 0,
+      "status": "PASS",
+      "message": "Maximum registration date."
+    },
+    {
+      "name": "year",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "groups_expected": 27,
+      "groups_actual": 27,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS",
+      "message": "Registration counts by year."
+    },
+    {
+      "name": "month",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "groups_expected": 320,
+      "groups_actual": 320,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS",
+      "message": "Registration counts by year-month."
+    },
+    {
+      "name": "fuel",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "groups_expected": 15,
+      "groups_actual": 15,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS",
+      "message": "Registration counts by fuel_category. Source fuel categories are not merged."
+    },
+    {
+      "name": "state",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "groups_expected": 17,
+      "groups_actual": 17,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS",
+      "message": "Registration counts by state_category. Rakan Niaga stays its own category."
+    },
+    {
+      "name": "vehicle_type",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "groups_expected": 5,
+      "groups_actual": 5,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS",
+      "message": "Registration counts by vehicle type."
+    },
+    {
+      "name": "maker_source",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "groups_expected": 202,
+      "groups_actual": 202,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS",
+      "message": "Source maker counts. This is the Phase 2 maker field, before maker_clean."
+    },
+    {
+      "name": "maker_clean",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "groups_expected": 200,
+      "groups_actual": 200,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS",
+      "message": "maker_clean counts. Expected values apply the Phase 2 maker case mappings to the source maker counts."
+    },
+    {
+      "name": "electric",
+      "expected": 131117,
+      "actual": 131117,
+      "difference": 0,
+      "status": "PASS",
+      "message": "is_electric registrations against the Phase 2 electric total."
+    },
+    {
+      "name": "electric_fuel_flag",
+      "expected": 131117,
+      "actual": 131117,
+      "difference": 0,
+      "status": "PASS",
+      "message": "is_electric against rows whose fuel_category is electric."
+    },
+    {
+      "name": "hybrid",
+      "expected": 208646,
+      "actual": 208646,
+      "difference": 0,
+      "status": "PASS",
+      "message": "is_hybrid registrations against the Phase 2 hybrid total."
+    },
+    {
+      "name": "hybrid_fuel_composition",
+      "expected": 208646,
+      "actual": 208646,
+      "difference": 0,
+      "status": "PASS",
+      "message": "is_hybrid against hybrid_petrol plus hybrid_diesel. Those fuel categories stay separate."
+    },
+    {
+      "name": "rakan_niaga",
+      "expected": 6746287,
+      "actual": 6746287,
+      "difference": 0,
+      "status": "PASS",
+      "message": "is_rakan_niaga against the Phase 2 Rakan Niaga total."
+    },
+    {
+      "name": "rakan_niaga_flag",
+      "expected": 6746287,
+      "actual": 6746287,
+      "difference": 0,
+      "status": "PASS",
+      "message": "is_rakan_niaga against rows whose state_category is Rakan Niaga."
+    },
+    {
+      "name": "null_required_fields",
+      "expected": 0,
+      "actual": 0,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Nulls in the analytical fields required by the views."
+    },
+    {
+      "name": "month_number_fields",
+      "expected": 0,
+      "actual": 0,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Rows where registration_month differs from registration_month_number."
+    },
+    {
+      "name": "monthly_view",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Sum of monthly_view registration_count against the fact row count."
+    },
+    {
+      "name": "model_view",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Sum of model_view registration_count against the fact row count."
+    },
+    {
+      "name": "manufacturer_month_view",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Sum of manufacturer_month_view registration_count against the fact row count."
+    },
+    {
+      "name": "manufacturer_view",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Sum of manufacturer_view registration_count against the fact row count."
+    },
+    {
+      "name": "state_view",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Sum of state_view registration_count against the fact row count."
+    },
+    {
+      "name": "fuel_view",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Sum of fuel_view registration_count against the fact row count."
+    },
+    {
+      "name": "vehicle_type_view",
+      "expected": 15950189,
+      "actual": 15950189,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Sum of vehicle_type_view registration_count against the fact row count."
+    },
+    {
+      "name": "model_groups",
+      "expected": 80781,
+      "actual": 80781,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Model-month groups against distinct maker_clean, model_clean, and month on the fact."
+    },
+    {
+      "name": "monthly_groups",
+      "expected": 320,
+      "actual": 320,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Monthly view rows against distinct registration months."
+    },
+    {
+      "name": "manufacturer_registration_share",
+      "expected": 0,
+      "actual": 3.3306690738754696e-16,
+      "difference": 3.3306690738754696e-16,
+      "status": "PASS",
+      "message": "Within each month, manufacturer registration shares sum to 1. Share is group registrations divided by all registrations in that month."
+    },
+    {
+      "name": "model_grain",
+      "expected": [],
+      "actual": [],
+      "difference": 0,
+      "status": "PASS",
+      "message": "Model analysis keeps maker_clean with model_clean."
+    },
+    {
+      "name": "surrogate_transaction_id",
+      "expected": [],
+      "actual": [],
+      "difference": 0,
+      "status": "PASS",
+      "message": "The fact view has no invented JPJ transaction identifier."
+    },
+    {
+      "name": "partial_years",
+      "expected": [
+        2026
+      ],
+      "actual": [
+        2026
+      ],
+      "difference": 0,
+      "status": "PASS",
+      "message": "Partial years in the year view against the Phase 2 partial-year list."
+    },
+    {
+      "name": "full_year_yoy",
+      "expected": [],
+      "actual": [],
+      "difference": 0,
+      "status": "PASS",
+      "message": "Full-year change is withheld for a partial latest year. Complete years use the previous calendar year. A zero prior year does not produce a percentage."
+    },
+    {
+      "name": "like_for_like_through_month",
+      "expected": 8,
+      "actual": 8,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Like-for-like window ends at the last complete month of the latest year."
+    },
+    {
+      "name": "like_for_like_latest",
+      "expected": 566616,
+      "actual": 566616,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Latest like-for-like registrations against the same months in the Phase 2 month totals."
+    },
+    {
+      "name": "like_for_like_prior",
+      "expected": 551365,
+      "actual": 551365,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Prior like-for-like registrations against the same months in the Phase 2 month totals."
+    },
+    {
+      "name": "like_for_like_label",
+      "expected": true,
+      "actual": true,
+      "difference": 0,
+      "status": "PASS",
+      "message": "The like-for-like row states that it is not a full-year comparison."
+    },
+    {
+      "name": "latest_month_yoy",
+      "expected": true,
+      "actual": true,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Month-level year-over-year change is withheld only when the latest observed month is incomplete."
+    },
+    {
+      "name": "dimension_grains",
+      "expected": 0,
+      "actual": 0,
+      "difference": 0,
+      "status": "PASS",
+      "message": "Rows from an unrecognised grouping set."
+    }
+  ],
+  "performance": {
+    "view_build_seconds": 0.123,
+    "reconciliation_seconds": 3.199,
+    "loaded_all_rows_into_python_memory": false,
+    "queries": [
+      {
+        "name": "fact_profile",
+        "seconds": 0.415,
+        "rows_returned": 1
+      },
+      {
+        "name": "dimension_counts",
+        "seconds": 0.203,
+        "rows_returned": 786
+      },
+      {
+        "name": "view_consistency",
+        "seconds": 1.999,
+        "rows_returned": 1
+      },
+      {
+        "name": "year_registrations",
+        "seconds": 0.115,
+        "rows_returned": 27
+      },
+      {
+        "name": "like_for_like_year",
+        "seconds": 0.103,
+        "rows_returned": 1
+      },
+      {
+        "name": "latest_month_yoy",
+        "seconds": 0.159,
+        "rows_returned": 1
+      },
+      {
+        "name": "representative_monthly",
+        "seconds": 0.167,
+        "rows_returned": 1
+      },
+      {
+        "name": "representative_manufacturers",
+        "seconds": 0.032,
+        "rows_returned": 5
+      },
+      {
+        "name": "direct_parquet_count",
+        "seconds": 0.006,
+        "rows_returned": 1
+      }
+    ],
+    "representative_results": {
+      "monthly": {
+        "months": 320,
+        "registration_count": 15950189,
+        "electric_registrations": 131117,
+        "hybrid_registrations": 208646
+      },
+      "largest_manufacturer_registration_counts": [
+        {
+          "maker_clean": "Perodua",
+          "registration_count": 5376247,
+          "registration_share": 0.33706478337027856
+        },
+        {
+          "maker_clean": "Proton",
+          "registration_count": 3672252,
+          "registration_share": 0.23023250696277017
+        },
+        {
+          "maker_clean": "Toyota",
+          "registration_count": 2455785,
+          "registration_share": 0.15396588717538082
+        },
+        {
+          "maker_clean": "Honda",
+          "registration_count": 1453848,
+          "registration_share": 0.09114926475165906
+        },
+        {
+          "maker_clean": "Nissan",
+          "registration_count": 595758,
+          "registration_share": 0.03735115615244434
+        }
+      ]
+    }
+  },
+  "database": {
+    "path": "C:/Users/irfan/Downloads/Malaysia Automotive Intelligence/data/analytical/registrations.duckdb",
+    "gitignored": true,
+    "fact_storage": "DuckDB view over Phase 2 Parquet",
+    "rebuild": "python -m src.analytical"
+  },
+  "definitions": {
+    "registration_transaction": "One row in the JPJ source. It is not a sale, a purchase, or a customer.",
+    "electric": "is_electric is 1 when fuel is electric.",
+    "hybrid": "is_hybrid is 1 when fuel is hybrid_petrol or hybrid_diesel. Those two categories remain separate.",
+    "registration_share": "Registrations in a group divided by all recorded registrations in the same period.",
+    "rakan_niaga": "A JPJ partner registration channel. It is not a geographic state.",
+    "partial_year": "The latest year is partial when its maximum date_reg is before 31 December. Full-year change is withheld. The like-for-like view compares January through the last complete month."
+  },
+  "limitations": [
+    "Registration transactions are not vehicle sales, purchases, or a direct measure of demand.",
+    "date_reg may differ from a purchase date.",
+    "The latest year is partial when it ends before 31 December. Full-year change for that year is null.",
+    "Rakan Niaga is not geographic state data and is not assigned to a state.",
+    "Unknown, other, and the source fuel categories are retained. Fuel categories are not merged.",
+    "Registration counts alone do not support a causal conclusion, including for months with unusually low counts."
+  ]
+}
