@@ -1,0 +1,2512 @@
+{
+  "status": "PASS",
+  "reconciled_with_monthly_view": true,
+  "overview": {
+    "registration_count": 15950189,
+    "minimum_date": "2000-01-02",
+    "maximum_date": "2026-08-31",
+    "registration_years": 27,
+    "observed_months": 320,
+    "manufacturers": 200,
+    "model_names": 1660,
+    "manufacturer_model_pairs": 1886,
+    "fuel_categories": 15,
+    "vehicle_types": 5,
+    "state_channels": 17,
+    "electric_registrations": 131117,
+    "hybrid_registrations": 208646,
+    "hybrid_petrol_registrations": 205849,
+    "hybrid_diesel_registrations": 2797
+  },
+  "partial_years": [
+    2026
+  ],
+  "complete_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "temporal": {
+    "monthly_descriptive": {
+      "n": 320,
+      "mean": 49844.340625,
+      "median": 48663.0,
+      "std": 14091.083034568337,
+      "minimum": 129.0,
+      "maximum": 96967.0
+    },
+    "monthly_descriptive_excluding_low_volume": {
+      "n": 318,
+      "mean": 50150.93396226415,
+      "median": 48718.5,
+      "std": 13592.704678263328,
+      "minimum": 8399.0,
+      "maximum": 96967.0
+    },
+    "coefficient_of_variation": 0.2827017642901829,
+    "year_normalized_coefficient_of_variation": 0.07246090054429148,
+    "low_volume_months": [
+      {
+        "registration_year_month": "2020-04",
+        "registration_count": 129
+      },
+      {
+        "registration_year_month": "2021-06",
+        "registration_count": 2063
+      }
+    ],
+    "low_volume_threshold": 4866.3,
+    "high_volume_eda_observations": [
+      {
+        "registration_year_month": "2025-12",
+        "registration_count": 96967
+      },
+      {
+        "registration_year_month": "2024-12",
+        "registration_count": 84425
+      }
+    ],
+    "month_to_month_median_change": 0.00226915692092855,
+    "month_to_month_minimum_change": -0.9944017706027861,
+    "month_to_month_minimum_month": "2020-04",
+    "calendar_month": [
+      {
+        "registration_month_number": 1,
+        "registration_month_name": "January",
+        "n": 27,
+        "mean_registrations": 46843.96296296296,
+        "median_registrations": 46388.0,
+        "std_registrations": 10459.003966037646
+      },
+      {
+        "registration_month_number": 2,
+        "registration_month_name": "February",
+        "n": 27,
+        "mean_registrations": 42192.7037037037,
+        "median_registrations": 40907.0,
+        "std_registrations": 11512.522820389382
+      },
+      {
+        "registration_month_number": 3,
+        "registration_month_name": "March",
+        "n": 27,
+        "mean_registrations": 53125.40740740741,
+        "median_registrations": 54415.0,
+        "std_registrations": 14972.329545505081
+      },
+      {
+        "registration_month_number": 4,
+        "registration_month_name": "April",
+        "n": 27,
+        "mean_registrations": 46574.59259259259,
+        "median_registrations": 47834.0,
+        "std_registrations": 14380.98584489451
+      },
+      {
+        "registration_month_number": 5,
+        "registration_month_name": "May",
+        "n": 27,
+        "mean_registrations": 48973.92592592593,
+        "median_registrations": 49135.0,
+        "std_registrations": 12342.566471590264
+      },
+      {
+        "registration_month_number": 6,
+        "registration_month_name": "June",
+        "n": 27,
+        "mean_registrations": 48766.40740740741,
+        "median_registrations": 49679.0,
+        "std_registrations": 14266.780994503642
+      },
+      {
+        "registration_month_number": 7,
+        "registration_month_name": "July",
+        "n": 27,
+        "mean_registrations": 53247.0,
+        "median_registrations": 53033.0,
+        "std_registrations": 15500.672988974095
+      },
+      {
+        "registration_month_number": 8,
+        "registration_month_name": "August",
+        "n": 27,
+        "mean_registrations": 53403.07407407407,
+        "median_registrations": 52287.0,
+        "std_registrations": 14191.575153162046
+      },
+      {
+        "registration_month_number": 9,
+        "registration_month_name": "September",
+        "n": 26,
+        "mean_registrations": 47466.38461538462,
+        "median_registrations": 45977.5,
+        "std_registrations": 10463.766376173922
+      },
+      {
+        "registration_month_number": 10,
+        "registration_month_name": "October",
+        "n": 26,
+        "mean_registrations": 52633.653846153844,
+        "median_registrations": 53043.0,
+        "std_registrations": 12923.384186880616
+      },
+      {
+        "registration_month_number": 11,
+        "registration_month_name": "November",
+        "n": 26,
+        "mean_registrations": 50115.153846153844,
+        "median_registrations": 48751.5,
+        "std_registrations": 12680.572507981551
+      },
+      {
+        "registration_month_number": 12,
+        "registration_month_name": "December",
+        "n": 26,
+        "mean_registrations": 55006.269230769234,
+        "median_registrations": 54379.0,
+        "std_registrations": 17880.851684580808
+      }
+    ],
+    "year_normalized_month": [
+      {
+        "registration_month_number": 1,
+        "registration_month_name": "January",
+        "years": 26,
+        "mean_within_year_share": 0.07846569344224916,
+        "median_within_year_share": 0.07952920615256567
+      },
+      {
+        "registration_month_number": 2,
+        "registration_month_name": "February",
+        "years": 26,
+        "mean_within_year_share": 0.06983913806040701,
+        "median_within_year_share": 0.06910472827583106
+      },
+      {
+        "registration_month_number": 3,
+        "registration_month_name": "March",
+        "years": 26,
+        "mean_within_year_share": 0.0882667032003723,
+        "median_within_year_share": 0.08697157215583426
+      },
+      {
+        "registration_month_number": 4,
+        "registration_month_name": "April",
+        "years": 26,
+        "mean_within_year_share": 0.07718577803026011,
+        "median_within_year_share": 0.07915472541932918
+      },
+      {
+        "registration_month_number": 5,
+        "registration_month_name": "May",
+        "years": 26,
+        "mean_within_year_share": 0.0817716682352228,
+        "median_within_year_share": 0.08271531539183269
+      },
+      {
+        "registration_month_number": 6,
+        "registration_month_name": "June",
+        "years": 26,
+        "mean_within_year_share": 0.08104794730503828,
+        "median_within_year_share": 0.08510357641396185
+      },
+      {
+        "registration_month_number": 7,
+        "registration_month_name": "July",
+        "years": 26,
+        "mean_within_year_share": 0.08838355542018682,
+        "median_within_year_share": 0.08933681248597682
+      },
+      {
+        "registration_month_number": 8,
+        "registration_month_name": "August",
+        "years": 26,
+        "mean_within_year_share": 0.0888113839593361,
+        "median_within_year_share": 0.09099070507808366
+      },
+      {
+        "registration_month_number": 9,
+        "registration_month_name": "September",
+        "years": 26,
+        "mean_within_year_share": 0.0809369337512015,
+        "median_within_year_share": 0.08225278084815676
+      },
+      {
+        "registration_month_number": 10,
+        "registration_month_name": "October",
+        "years": 26,
+        "mean_within_year_share": 0.08912825574043243,
+        "median_within_year_share": 0.08759217229849456
+      },
+      {
+        "registration_month_number": 11,
+        "registration_month_name": "November",
+        "years": 26,
+        "mean_within_year_share": 0.0847617083336751,
+        "median_within_year_share": 0.08345804878173076
+      },
+      {
+        "registration_month_number": 12,
+        "registration_month_name": "December",
+        "years": 26,
+        "mean_within_year_share": 0.09140123452161841,
+        "median_within_year_share": 0.09002120921077642
+      }
+    ],
+    "quarter": [
+      {
+        "registration_quarter": 1,
+        "n": 81,
+        "mean_registrations": 47387.358024691355,
+        "median_registrations": 45966.0
+      },
+      {
+        "registration_quarter": 2,
+        "n": 81,
+        "mean_registrations": 48104.97530864197,
+        "median_registrations": 48536.0
+      },
+      {
+        "registration_quarter": 3,
+        "n": 80,
+        "mean_registrations": 51420.975,
+        "median_registrations": 51040.0
+      },
+      {
+        "registration_quarter": 4,
+        "n": 78,
+        "mean_registrations": 52585.02564102564,
+        "median_registrations": 51506.0
+      }
+    ],
+    "yearly": [
+      {
+        "registration_year": 2000,
+        "is_partial_year": false,
+        "registration_count": 352355,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0,
+        "yoy_absolute_change": null,
+        "yoy_percentage_change": null,
+        "yoy_basis": "no_prior_year"
+      },
+      {
+        "registration_year": 2001,
+        "is_partial_year": false,
+        "registration_count": 406148,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0,
+        "yoy_absolute_change": 53793,
+        "yoy_percentage_change": 0.15266705453307033,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2002,
+        "is_partial_year": false,
+        "registration_count": 446610,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0,
+        "yoy_absolute_change": 40462,
+        "yoy_percentage_change": 0.09962378246353545,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2003,
+        "is_partial_year": false,
+        "registration_count": 431669,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0,
+        "yoy_absolute_change": -14941,
+        "yoy_percentage_change": -0.033454244195159084,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2004,
+        "is_partial_year": false,
+        "registration_count": 489224,
+        "electric_registrations": 0,
+        "hybrid_registrations": 1,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 2.0440534397331284e-06,
+        "yoy_absolute_change": 57555,
+        "yoy_percentage_change": 0.13333132562217812,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2005,
+        "is_partial_year": false,
+        "registration_count": 566565,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0,
+        "yoy_absolute_change": 77341,
+        "yoy_percentage_change": 0.15808913708239988,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2006,
+        "is_partial_year": false,
+        "registration_count": 475487,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0,
+        "yoy_absolute_change": -91078,
+        "yoy_percentage_change": -0.16075472364159452,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2007,
+        "is_partial_year": false,
+        "registration_count": 480644,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0,
+        "yoy_absolute_change": 5157,
+        "yoy_percentage_change": 0.010845722385680366,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2008,
+        "is_partial_year": false,
+        "registration_count": 551099,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0,
+        "yoy_absolute_change": 70455,
+        "yoy_percentage_change": 0.14658458235201105,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2009,
+        "is_partial_year": false,
+        "registration_count": 539187,
+        "electric_registrations": 1,
+        "hybrid_registrations": 3,
+        "electric_registration_share": 1.8546441216127244e-06,
+        "hybrid_registration_share": 5.563932364838173e-06,
+        "yoy_absolute_change": -11912,
+        "yoy_percentage_change": -0.021614991135893914,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2010,
+        "is_partial_year": false,
+        "registration_count": 608561,
+        "electric_registrations": 0,
+        "hybrid_registrations": 2,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 3.286441293477564e-06,
+        "yoy_absolute_change": 69374,
+        "yoy_percentage_change": 0.12866408129276113,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2011,
+        "is_partial_year": false,
+        "registration_count": 607491,
+        "electric_registrations": 6,
+        "hybrid_registrations": 381,
+        "electric_registration_share": 9.876689531202931e-06,
+        "hybrid_registration_share": 0.0006271697852313861,
+        "yoy_absolute_change": -1070,
+        "yoy_percentage_change": -0.0017582460920104969,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2012,
+        "is_partial_year": false,
+        "registration_count": 633063,
+        "electric_registrations": 25,
+        "hybrid_registrations": 12752,
+        "electric_registration_share": 3.949054043594397e-05,
+        "hybrid_registration_share": 0.0201433348655663,
+        "yoy_absolute_change": 25572,
+        "yoy_percentage_change": 0.04209445078198689,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2013,
+        "is_partial_year": false,
+        "registration_count": 664711,
+        "electric_registrations": 17,
+        "hybrid_registrations": 16800,
+        "electric_registration_share": 2.5575024333883448e-05,
+        "hybrid_registration_share": 0.02527414169466129,
+        "yoy_absolute_change": 31648,
+        "yoy_percentage_change": 0.049991864948670195,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2014,
+        "is_partial_year": false,
+        "registration_count": 677214,
+        "electric_registrations": 27,
+        "hybrid_registrations": 7644,
+        "electric_registration_share": 3.986922892911251e-05,
+        "hybrid_registration_share": 0.011287421701264297,
+        "yoy_absolute_change": 12503,
+        "yoy_percentage_change": 0.01880967819097322,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2015,
+        "is_partial_year": false,
+        "registration_count": 678031,
+        "electric_registrations": 55,
+        "hybrid_registrations": 9643,
+        "electric_registration_share": 8.111723505267458e-05,
+        "hybrid_registration_share": 0.014222063592962563,
+        "yoy_absolute_change": 817,
+        "yoy_percentage_change": 0.0012064133346327748,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2016,
+        "is_partial_year": false,
+        "registration_count": 588054,
+        "electric_registrations": 41,
+        "hybrid_registrations": 5856,
+        "electric_registration_share": 6.972148816265173e-05,
+        "hybrid_registration_share": 0.009958269138548501,
+        "yoy_absolute_change": -89977,
+        "yoy_percentage_change": -0.1327033719697182,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2017,
+        "is_partial_year": false,
+        "registration_count": 579618,
+        "electric_registrations": 25,
+        "hybrid_registrations": 9149,
+        "electric_registration_share": 4.313185580848076e-05,
+        "hybrid_registration_share": 0.01578453395167162,
+        "yoy_absolute_change": -8436,
+        "yoy_percentage_change": -0.014345621320490975,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2018,
+        "is_partial_year": false,
+        "registration_count": 608982,
+        "electric_registrations": 10,
+        "hybrid_registrations": 7749,
+        "electric_registration_share": 1.6420846593166957e-05,
+        "hybrid_registration_share": 0.012724514025045075,
+        "yoy_absolute_change": 29364,
+        "yoy_percentage_change": 0.05066095255840916,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2019,
+        "is_partial_year": false,
+        "registration_count": 612963,
+        "electric_registrations": 44,
+        "hybrid_registrations": 5966,
+        "electric_registration_share": 7.178247300408018e-05,
+        "hybrid_registration_share": 0.009733050771416871,
+        "yoy_absolute_change": 3981,
+        "yoy_percentage_change": 0.006537139028739766,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2020,
+        "is_partial_year": false,
+        "registration_count": 552345,
+        "electric_registrations": 71,
+        "hybrid_registrations": 1928,
+        "electric_registration_share": 0.0001285428491250939,
+        "hybrid_registration_share": 0.003490572015678607,
+        "yoy_absolute_change": -60618,
+        "yoy_percentage_change": -0.09889340792184846,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2021,
+        "is_partial_year": false,
+        "registration_count": 530046,
+        "electric_registrations": 257,
+        "hybrid_registrations": 2731,
+        "electric_registration_share": 0.0004848635778781464,
+        "hybrid_registration_share": 0.0051523830007206926,
+        "yoy_absolute_change": -22299,
+        "yoy_percentage_change": -0.04037150693859816,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2022,
+        "is_partial_year": false,
+        "registration_count": 744752,
+        "electric_registrations": 3128,
+        "hybrid_registrations": 15377,
+        "electric_registration_share": 0.004200055857520355,
+        "hybrid_registration_share": 0.020647141598814103,
+        "yoy_absolute_change": 214706,
+        "yoy_percentage_change": 0.40507050331480665,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2023,
+        "is_partial_year": false,
+        "registration_count": 832329,
+        "electric_registrations": 13301,
+        "hybrid_registrations": 22215,
+        "electric_registration_share": 0.015980459649970143,
+        "hybrid_registration_share": 0.02669016698925545,
+        "yoy_absolute_change": 87577,
+        "yoy_percentage_change": 0.11759216490858702,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2024,
+        "is_partial_year": false,
+        "registration_count": 856237,
+        "electric_registrations": 21788,
+        "hybrid_registrations": 24526,
+        "electric_registration_share": 0.02544622575291654,
+        "hybrid_registration_share": 0.028643938535709155,
+        "yoy_absolute_change": 23908,
+        "yoy_percentage_change": 0.028724218428049484,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2025,
+        "is_partial_year": false,
+        "registration_count": 870188,
+        "electric_registrations": 44813,
+        "hybrid_registrations": 31190,
+        "electric_registration_share": 0.051498067084354185,
+        "hybrid_registration_share": 0.03584282936560835,
+        "yoy_absolute_change": 13951,
+        "yoy_percentage_change": 0.01629338606016792,
+        "yoy_basis": "full_year"
+      },
+      {
+        "registration_year": 2026,
+        "is_partial_year": true,
+        "registration_count": 566616,
+        "electric_registrations": 47508,
+        "hybrid_registrations": 34733,
+        "electric_registration_share": 0.0838451438010928,
+        "hybrid_registration_share": 0.061299010264447173,
+        "yoy_absolute_change": null,
+        "yoy_percentage_change": null,
+        "yoy_basis": "withheld_partial_year"
+      }
+    ],
+    "like_for_like": {
+      "latest_year": 2026,
+      "prior_year": 2025,
+      "through_month": 8,
+      "through_month_name": "August",
+      "comparison_label": "January through August 2026 compared with January through August 2025. This is not a full-year comparison.",
+      "latest_period_registrations": 566616,
+      "prior_period_registrations": 551365,
+      "latest_period_electric_registrations": 47508,
+      "prior_period_electric_registrations": 23396,
+      "latest_period_hybrid_registrations": 34733,
+      "prior_period_hybrid_registrations": 19545,
+      "yoy_absolute_change": 15251,
+      "yoy_percentage_change": 0.02766044271943268,
+      "yoy_basis": "partial_year_like_for_like"
+    }
+  },
+  "manufacturer": {
+    "manufacturers": 200,
+    "top_5_share": 0.8497635984125329,
+    "top_10_share": 0.9185201504508818,
+    "hhi": 0.20141229368703722,
+    "cumulative_share": [
+      {
+        "k": 1,
+        "share": 0.33706478337027856
+      },
+      {
+        "k": 5,
+        "share": 0.8497635984125329
+      },
+      {
+        "k": 10,
+        "share": 0.9185201504508818
+      },
+      {
+        "k": 20,
+        "share": 0.9766084903445345
+      }
+    ],
+    "largest": [
+      {
+        "maker_clean": "Perodua",
+        "registration_count": 5376247,
+        "electric_registrations": 412,
+        "hybrid_registrations": 2,
+        "registration_share": 0.33706478337027856,
+        "electric_registration_share": 7.663338384564549e-05,
+        "hybrid_registration_share": 3.720067176973082e-07
+      },
+      {
+        "maker_clean": "Proton",
+        "registration_count": 3672252,
+        "electric_registrations": 30750,
+        "hybrid_registrations": 5576,
+        "registration_share": 0.23023250696277017,
+        "electric_registration_share": 0.008373608347139575,
+        "hybrid_registration_share": 0.001518414313614643
+      },
+      {
+        "maker_clean": "Toyota",
+        "registration_count": 2455785,
+        "electric_registrations": 91,
+        "hybrid_registrations": 57227,
+        "registration_share": 0.15396588717538082,
+        "electric_registration_share": 3.705536111671013e-05,
+        "hybrid_registration_share": 0.023302935721164517
+      },
+      {
+        "maker_clean": "Honda",
+        "registration_count": 1453848,
+        "electric_registrations": 325,
+        "hybrid_registrations": 63108,
+        "registration_share": 0.09114926475165906,
+        "electric_registration_share": 0.00022354468967870095,
+        "hybrid_registration_share": 0.04340756392690295
+      },
+      {
+        "maker_clean": "Nissan",
+        "registration_count": 595758,
+        "electric_registrations": 166,
+        "hybrid_registrations": 16202,
+        "registration_share": 0.03735115615244434,
+        "electric_registration_share": 0.0002786366276239681,
+        "hybrid_registration_share": 0.02719560626965983
+      },
+      {
+        "maker_clean": "Mitsubishi",
+        "registration_count": 269597,
+        "electric_registrations": 15,
+        "hybrid_registrations": 3,
+        "registration_share": 0.016902432942957603,
+        "electric_registration_share": 5.563860131974762e-05,
+        "hybrid_registration_share": 1.1127720263949525e-05
+      },
+      {
+        "maker_clean": "Mercedes Benz",
+        "registration_count": 264471,
+        "electric_registrations": 2394,
+        "hybrid_registrations": 30121,
+        "registration_share": 0.01658105744076136,
+        "electric_registration_share": 0.00905203216987874,
+        "hybrid_registration_share": 0.11389150417248016
+      },
+      {
+        "maker_clean": "Mazda",
+        "registration_count": 203837,
+        "electric_registrations": 32,
+        "hybrid_registrations": 89,
+        "registration_share": 0.012779597784076415,
+        "electric_registration_share": 0.00015698818173344388,
+        "hybrid_registration_share": 0.0004366233804461408
+      },
+      {
+        "maker_clean": "BMW",
+        "registration_count": 198084,
+        "electric_registrations": 8596,
+        "hybrid_registrations": 2104,
+        "registration_share": 0.012418912402856168,
+        "electric_registration_share": 0.04339573110397609,
+        "hybrid_registration_share": 0.010621756426566507
+      },
+      {
+        "maker_clean": "Ford",
+        "registration_count": 160691,
+        "electric_registrations": 12,
+        "hybrid_registrations": 0,
+        "registration_share": 0.010074551467697342,
+        "electric_registration_share": 7.467748660472584e-05,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "maker_clean": "Naza",
+        "registration_count": 139421,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.008741024949610316,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "maker_clean": "Kia",
+        "registration_count": 122619,
+        "electric_registrations": 192,
+        "hybrid_registrations": 0,
+        "registration_share": 0.007687620504057977,
+        "electric_registration_share": 0.0015658258508061556,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "maker_clean": "Isuzu",
+        "registration_count": 122069,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.007653138154036921,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "maker_clean": "Hyundai",
+        "registration_count": 107230,
+        "electric_registrations": 789,
+        "hybrid_registrations": 2361,
+        "registration_share": 0.006722804350468826,
+        "electric_registration_share": 0.0073580154807423295,
+        "hybrid_registration_share": 0.022018091951879138
+      },
+      {
+        "maker_clean": "Volkswagen",
+        "registration_count": 94986,
+        "electric_registrations": 10,
+        "hybrid_registrations": 195,
+        "registration_share": 0.005955164543818258,
+        "electric_registration_share": 0.00010527867264649527,
+        "hybrid_registration_share": 0.0020529341166066577
+      }
+    ],
+    "like_for_like": [
+      {
+        "maker_clean": "Perodua",
+        "registration_count": 5376247,
+        "latest_period_registrations": 219559,
+        "prior_period_registrations": 231700,
+        "yoy_absolute_change": -12141.0,
+        "yoy_percentage_change": -0.052399654725938716
+      },
+      {
+        "maker_clean": "Proton",
+        "registration_count": 3672252,
+        "latest_period_registrations": 135169,
+        "prior_period_registrations": 97578,
+        "yoy_absolute_change": 37591.0,
+        "yoy_percentage_change": 0.3852405255282953
+      },
+      {
+        "maker_clean": "Toyota",
+        "registration_count": 2455785,
+        "latest_period_registrations": 72942,
+        "prior_period_registrations": 80479,
+        "yoy_absolute_change": -7537.0,
+        "yoy_percentage_change": -0.09365176008648218
+      },
+      {
+        "maker_clean": "Honda",
+        "registration_count": 1453848,
+        "latest_period_registrations": 37194,
+        "prior_period_registrations": 46674,
+        "yoy_absolute_change": -9480.0,
+        "yoy_percentage_change": -0.20311093970947422
+      },
+      {
+        "maker_clean": "Nissan",
+        "registration_count": 595758,
+        "latest_period_registrations": 2981,
+        "prior_period_registrations": 4340,
+        "yoy_absolute_change": -1359.0,
+        "yoy_percentage_change": -0.3131336405529954
+      },
+      {
+        "maker_clean": "Mitsubishi",
+        "registration_count": 269597,
+        "latest_period_registrations": 8824,
+        "prior_period_registrations": 9207,
+        "yoy_absolute_change": -383.0,
+        "yoy_percentage_change": -0.04159878353426741
+      },
+      {
+        "maker_clean": "Mercedes Benz",
+        "registration_count": 264471,
+        "latest_period_registrations": 4979,
+        "prior_period_registrations": 6291,
+        "yoy_absolute_change": -1312.0,
+        "yoy_percentage_change": -0.208551899539024
+      },
+      {
+        "maker_clean": "Mazda",
+        "registration_count": 203837,
+        "latest_period_registrations": 7852,
+        "prior_period_registrations": 5582,
+        "yoy_absolute_change": 2270.0,
+        "yoy_percentage_change": 0.40666427803654603
+      },
+      {
+        "maker_clean": "BMW",
+        "registration_count": 198084,
+        "latest_period_registrations": 3989,
+        "prior_period_registrations": 5084,
+        "yoy_absolute_change": -1095.0,
+        "yoy_percentage_change": -0.21538158929976398
+      },
+      {
+        "maker_clean": "Ford",
+        "registration_count": 160691,
+        "latest_period_registrations": 1791,
+        "prior_period_registrations": 3382,
+        "yoy_absolute_change": -1591.0,
+        "yoy_percentage_change": -0.47043169722057954
+      }
+    ],
+    "like_for_like_window": {
+      "latest_year": 2026,
+      "prior_year": 2025,
+      "through_month": 8
+    },
+    "electric_leaders": [
+      {
+        "maker_clean": "BYD",
+        "registration_count": 34954,
+        "electric_registrations": 34954,
+        "hybrid_registrations": 0,
+        "registration_share": 0.0021914473866109048,
+        "electric_registration_share": 1.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "maker_clean": "Proton",
+        "registration_count": 3672252,
+        "electric_registrations": 30750,
+        "hybrid_registrations": 5576,
+        "registration_share": 0.23023250696277017,
+        "electric_registration_share": 0.008373608347139575,
+        "hybrid_registration_share": 0.001518414313614643
+      },
+      {
+        "maker_clean": "Tesla",
+        "registration_count": 18394,
+        "electric_registrations": 18393,
+        "hybrid_registrations": 0,
+        "registration_share": 0.0011532151750678315,
+        "electric_registration_share": 0.999945634446015,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "maker_clean": "BMW",
+        "registration_count": 198084,
+        "electric_registrations": 8596,
+        "hybrid_registrations": 2104,
+        "registration_share": 0.012418912402856168,
+        "electric_registration_share": 0.04339573110397609,
+        "hybrid_registration_share": 0.010621756426566507
+      },
+      {
+        "maker_clean": "Chery",
+        "registration_count": 89774,
+        "electric_registrations": 5625,
+        "hybrid_registrations": 6057,
+        "registration_share": 0.005628397255982359,
+        "electric_registration_share": 0.06265733954151537,
+        "hybrid_registration_share": 0.06746942321830374
+      },
+      {
+        "maker_clean": "Zeekr",
+        "registration_count": 5592,
+        "electric_registrations": 5592,
+        "hybrid_registrations": 0,
+        "registration_share": 0.00035059145694135664,
+        "electric_registration_share": 1.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "maker_clean": "Xpeng",
+        "registration_count": 2853,
+        "electric_registrations": 2853,
+        "hybrid_registrations": 0,
+        "registration_share": 0.00017886935383649687,
+        "electric_registration_share": 1.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "maker_clean": "Mini",
+        "registration_count": 27028,
+        "electric_registrations": 2528,
+        "hybrid_registrations": 1,
+        "registration_share": 0.001694525375216557,
+        "electric_registration_share": 0.09353263282521829,
+        "hybrid_registration_share": 3.699866804795027e-05
+      },
+      {
+        "maker_clean": "Mercedes Benz",
+        "registration_count": 264471,
+        "electric_registrations": 2394,
+        "hybrid_registrations": 30121,
+        "registration_share": 0.01658105744076136,
+        "electric_registration_share": 0.00905203216987874,
+        "hybrid_registration_share": 0.11389150417248016
+      },
+      {
+        "maker_clean": "Volvo",
+        "registration_count": 33435,
+        "electric_registrations": 2388,
+        "hybrid_registrations": 8934,
+        "registration_share": 0.0020962134053709334,
+        "electric_registration_share": 0.07142216240466577,
+        "hybrid_registration_share": 0.26720502467474205
+      }
+    ],
+    "hybrid_leaders": [
+      {
+        "maker_clean": "Honda",
+        "registration_count": 1453848,
+        "electric_registrations": 325,
+        "hybrid_registrations": 63108,
+        "registration_share": 0.09114926475165906,
+        "electric_registration_share": 0.00022354468967870095,
+        "hybrid_registration_share": 0.04340756392690295
+      },
+      {
+        "maker_clean": "Toyota",
+        "registration_count": 2455785,
+        "electric_registrations": 91,
+        "hybrid_registrations": 57227,
+        "registration_share": 0.15396588717538082,
+        "electric_registration_share": 3.705536111671013e-05,
+        "hybrid_registration_share": 0.023302935721164517
+      },
+      {
+        "maker_clean": "Mercedes Benz",
+        "registration_count": 264471,
+        "electric_registrations": 2394,
+        "hybrid_registrations": 30121,
+        "registration_share": 0.01658105744076136,
+        "electric_registration_share": 0.00905203216987874,
+        "hybrid_registration_share": 0.11389150417248016
+      },
+      {
+        "maker_clean": "Nissan",
+        "registration_count": 595758,
+        "electric_registrations": 166,
+        "hybrid_registrations": 16202,
+        "registration_share": 0.03735115615244434,
+        "electric_registration_share": 0.0002786366276239681,
+        "hybrid_registration_share": 0.02719560626965983
+      },
+      {
+        "maker_clean": "Great Wall",
+        "registration_count": 19651,
+        "electric_registrations": 1951,
+        "hybrid_registrations": 9921,
+        "registration_share": 0.001232023018661409,
+        "electric_registration_share": 0.09928247926314182,
+        "hybrid_registration_share": 0.5048598035723373
+      },
+      {
+        "maker_clean": "Volvo",
+        "registration_count": 33435,
+        "electric_registrations": 2388,
+        "hybrid_registrations": 8934,
+        "registration_share": 0.0020962134053709334,
+        "electric_registration_share": 0.07142216240466577,
+        "hybrid_registration_share": 0.26720502467474205
+      },
+      {
+        "maker_clean": "Chery",
+        "registration_count": 89774,
+        "electric_registrations": 5625,
+        "hybrid_registrations": 6057,
+        "registration_share": 0.005628397255982359,
+        "electric_registration_share": 0.06265733954151537,
+        "hybrid_registration_share": 0.06746942321830374
+      },
+      {
+        "maker_clean": "Proton",
+        "registration_count": 3672252,
+        "electric_registrations": 30750,
+        "hybrid_registrations": 5576,
+        "registration_share": 0.23023250696277017,
+        "electric_registration_share": 0.008373608347139575,
+        "hybrid_registration_share": 0.001518414313614643
+      },
+      {
+        "maker_clean": "Lexus",
+        "registration_count": 49788,
+        "electric_registrations": 199,
+        "hybrid_registrations": 4154,
+        "registration_share": 0.003121467714269718,
+        "electric_registration_share": 0.0039969470555153855,
+        "hybrid_registration_share": 0.08343375913874829
+      },
+      {
+        "maker_clean": "Hyundai",
+        "registration_count": 107230,
+        "electric_registrations": 789,
+        "hybrid_registrations": 2361,
+        "registration_share": 0.006722804350468826,
+        "electric_registration_share": 0.0073580154807423295,
+        "hybrid_registration_share": 0.022018091951879138
+      }
+    ]
+  },
+  "model": {
+    "manufacturer_model_pairs": 1886,
+    "model_names": 1660,
+    "model_names_with_multiple_manufacturers": 123,
+    "top_10_share": 0.4613548466416291,
+    "hhi": 0.030745295891822153,
+    "largest_pairs": [
+      {
+        "maker_clean": "Perodua",
+        "model_clean": "Myvi",
+        "registration_count": 1599487,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.10028012834205287
+      },
+      {
+        "maker_clean": "Proton",
+        "model_clean": "Saga",
+        "registration_count": 1049151,
+        "electric_registrations": 19,
+        "hybrid_registrations": 0,
+        "registration_share": 0.06577671273989293
+      },
+      {
+        "maker_clean": "Perodua",
+        "model_clean": "Axia",
+        "registration_count": 882563,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.055332447784788005
+      },
+      {
+        "maker_clean": "Perodua",
+        "model_clean": "Bezza",
+        "registration_count": 709433,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.044478030949978084
+      },
+      {
+        "maker_clean": "Toyota",
+        "model_clean": "Vios",
+        "registration_count": 603665,
+        "electric_registrations": 0,
+        "hybrid_registrations": 3750,
+        "registration_share": 0.037846886955383414
+      },
+      {
+        "maker_clean": "Perodua",
+        "model_clean": "Alza",
+        "registration_count": 575724,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.0360951208791319
+      },
+      {
+        "maker_clean": "Honda",
+        "model_clean": "City",
+        "registration_count": 538471,
+        "electric_registrations": 0,
+        "hybrid_registrations": 15205,
+        "registration_share": 0.03375953726943298
+      },
+      {
+        "maker_clean": "Proton",
+        "model_clean": "Wira",
+        "registration_count": 482671,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.030261146121842192
+      },
+      {
+        "maker_clean": "Toyota",
+        "model_clean": "Hilux",
+        "registration_count": 459241,
+        "electric_registrations": 13,
+        "hybrid_registrations": 1,
+        "registration_share": 0.0287921980109452
+      },
+      {
+        "maker_clean": "Proton",
+        "model_clean": "Persona",
+        "registration_count": 458291,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.028732637588181557
+      },
+      {
+        "maker_clean": "Perodua",
+        "model_clean": "Kancil",
+        "registration_count": 450287,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.028230825352602403
+      },
+      {
+        "maker_clean": "Perodua",
+        "model_clean": "Viva",
+        "registration_count": 448078,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.028092331695881472
+      },
+      {
+        "maker_clean": "Proton",
+        "model_clean": "Iswara",
+        "registration_count": 370423,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.023223737348817622
+      },
+      {
+        "maker_clean": "Proton",
+        "model_clean": "Waja",
+        "registration_count": 295828,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "registration_share": 0.018546990258234558
+      },
+      {
+        "maker_clean": "Honda",
+        "model_clean": "Civic",
+        "registration_count": 212412,
+        "electric_registrations": 0,
+        "hybrid_registrations": 7318,
+        "registration_share": 0.013317208968495609
+      }
+    ],
+    "electric_pairs": [
+      {
+        "maker_clean": "Proton",
+        "model_clean": "e.MAS 5",
+        "registration_count": 18050,
+        "electric_registrations": 18050,
+        "hybrid_registrations": 0,
+        "registration_share": 0.0011316480325092072
+      },
+      {
+        "maker_clean": "BYD",
+        "model_clean": "Atto 3",
+        "registration_count": 13255,
+        "electric_registrations": 13255,
+        "hybrid_registrations": 0,
+        "registration_share": 0.0008310246355074538
+      },
+      {
+        "maker_clean": "Proton",
+        "model_clean": "e.MAS 7",
+        "registration_count": 18243,
+        "electric_registrations": 12681,
+        "hybrid_registrations": 5562,
+        "registration_share": 0.0011437482026075052
+      },
+      {
+        "maker_clean": "Tesla",
+        "model_clean": "Model 3",
+        "registration_count": 9335,
+        "electric_registrations": 9335,
+        "hybrid_registrations": 0,
+        "registration_share": 0.000585259522630108
+      },
+      {
+        "maker_clean": "Tesla",
+        "model_clean": "Model Y",
+        "registration_count": 8945,
+        "electric_registrations": 8945,
+        "hybrid_registrations": 0,
+        "registration_share": 0.0005608084017060864
+      },
+      {
+        "maker_clean": "BYD",
+        "model_clean": "Sealion",
+        "registration_count": 6551,
+        "electric_registrations": 6551,
+        "hybrid_registrations": 0,
+        "registration_share": 0.0004107161363417073
+      },
+      {
+        "maker_clean": "BYD",
+        "model_clean": "Seal",
+        "registration_count": 4203,
+        "electric_registrations": 4203,
+        "hybrid_registrations": 0,
+        "registration_share": 0.00026350784934272566
+      },
+      {
+        "maker_clean": "Zeekr",
+        "model_clean": "7X",
+        "registration_count": 3959,
+        "electric_registrations": 3959,
+        "hybrid_registrations": 0,
+        "registration_share": 0.00024821022496974803
+      },
+      {
+        "maker_clean": "BMW",
+        "model_clean": "iX",
+        "registration_count": 2897,
+        "electric_registrations": 2897,
+        "hybrid_registrations": 0,
+        "registration_share": 0.00018162794183818135
+      },
+      {
+        "maker_clean": "BYD",
+        "model_clean": "Dolphin",
+        "registration_count": 2831,
+        "electric_registrations": 2831,
+        "hybrid_registrations": 0,
+        "registration_share": 0.00017749005983565462
+      }
+    ],
+    "hybrid_pairs": [
+      {
+        "maker_clean": "Toyota",
+        "model_clean": "Corolla Cross",
+        "registration_count": 77577,
+        "electric_registrations": 0,
+        "hybrid_registrations": 32021,
+        "registration_share": 0.004863704122879045
+      },
+      {
+        "maker_clean": "Honda",
+        "model_clean": "HR-V",
+        "registration_count": 187934,
+        "electric_registrations": 0,
+        "hybrid_registrations": 15437,
+        "registration_share": 0.01178255630701304
+      },
+      {
+        "maker_clean": "Honda",
+        "model_clean": "City",
+        "registration_count": 538471,
+        "electric_registrations": 0,
+        "hybrid_registrations": 15205,
+        "registration_share": 0.03375953726943298
+      },
+      {
+        "maker_clean": "Nissan",
+        "model_clean": "Serena",
+        "registration_count": 54588,
+        "electric_registrations": 0,
+        "hybrid_registrations": 14551,
+        "registration_share": 0.0034224045871807537
+      },
+      {
+        "maker_clean": "Mercedes Benz",
+        "model_clean": "C-Class",
+        "registration_count": 77049,
+        "electric_registrations": 0,
+        "hybrid_registrations": 12181,
+        "registration_share": 0.004830601066858831
+      },
+      {
+        "maker_clean": "Honda",
+        "model_clean": "Jazz",
+        "registration_count": 123856,
+        "electric_registrations": 0,
+        "hybrid_registrations": 11573,
+        "registration_share": 0.007765174444014425
+      },
+      {
+        "maker_clean": "Toyota",
+        "model_clean": "Camry",
+        "registration_count": 128020,
+        "electric_registrations": 0,
+        "hybrid_registrations": 10142,
+        "registration_share": 0.008026237181264748
+      },
+      {
+        "maker_clean": "Great Wall",
+        "model_clean": "Haval H6",
+        "registration_count": 7852,
+        "electric_registrations": 0,
+        "hybrid_registrations": 7849,
+        "registration_share": 0.0004922825679369693
+      },
+      {
+        "maker_clean": "Toyota",
+        "model_clean": "Prius",
+        "registration_count": 14719,
+        "electric_registrations": 0,
+        "hybrid_registrations": 7671,
+        "registration_share": 0.0009228103817453197
+      },
+      {
+        "maker_clean": "Mercedes Benz",
+        "model_clean": "E-Class",
+        "registration_count": 79144,
+        "electric_registrations": 37,
+        "hybrid_registrations": 7529,
+        "registration_share": 0.004961947472848127
+      }
+    ]
+  },
+  "vehicle_type": {
+    "totals": [
+      {
+        "type": "motokar",
+        "registration_count": 11062335,
+        "registration_share": 0.6935551045821463
+      },
+      {
+        "type": "jip",
+        "registration_count": 1787309,
+        "registration_share": 0.112055662788698
+      },
+      {
+        "type": "motokar_pelbagai_utiliti",
+        "registration_count": 1548313,
+        "registration_share": 0.0970717651057301
+      },
+      {
+        "type": "pick_up",
+        "registration_count": 949877,
+        "registration_share": 0.05955271125627414
+      },
+      {
+        "type": "window_van",
+        "registration_count": 602355,
+        "registration_share": 0.03776475626715144
+      }
+    ],
+    "hhi": 0.5079707844695989,
+    "yearly_rows": 135
+  },
+  "fuel": {
+    "totals": [
+      {
+        "fuel_category": "petrol",
+        "registration_count": 14403324,
+        "registration_share": 0.903019017517598
+      },
+      {
+        "fuel_category": "greendiesel",
+        "registration_count": 1062440,
+        "registration_share": 0.0666098690115835
+      },
+      {
+        "fuel_category": "hybrid_petrol",
+        "registration_count": 205849,
+        "registration_share": 0.012905740489971623
+      },
+      {
+        "fuel_category": "electric",
+        "registration_count": 131117,
+        "registration_share": 0.008220404159474223
+      },
+      {
+        "fuel_category": "diesel",
+        "registration_count": 78130,
+        "registration_share": 0.004898374558445671
+      },
+      {
+        "fuel_category": "petrol_ng",
+        "registration_count": 65641,
+        "registration_share": 0.00411537443224027
+      },
+      {
+        "fuel_category": "hybrid_diesel",
+        "registration_count": 2797,
+        "registration_share": 0.00017535842365253476
+      },
+      {
+        "fuel_category": "ng",
+        "registration_count": 695,
+        "registration_share": 4.3573151390243716e-05
+      },
+      {
+        "fuel_category": "petrol_lng",
+        "registration_count": 85,
+        "registration_share": 5.3290904577995906e-06
+      },
+      {
+        "fuel_category": "greendiesel_ng",
+        "registration_count": 55,
+        "registration_share": 3.448235002105618e-06
+      },
+      {
+        "fuel_category": "diesel_ng",
+        "registration_count": 23,
+        "registration_share": 1.4419891826987129e-06
+      },
+      {
+        "fuel_category": "other",
+        "registration_count": 20,
+        "registration_share": 1.2539036371293156e-06
+      },
+      {
+        "fuel_category": "unknown",
+        "registration_count": 7,
+        "registration_share": 4.388662729952604e-07
+      },
+      {
+        "fuel_category": "hydrogen",
+        "registration_count": 3,
+        "registration_share": 1.8808554556939733e-07
+      },
+      {
+        "fuel_category": "lng",
+        "registration_count": 3,
+        "registration_share": 1.8808554556939733e-07
+      }
+    ],
+    "hhi": 0.8201553169037612,
+    "greendiesel_registrations": 1062440,
+    "diesel_registrations": 78130,
+    "period_years": {
+      "earlier": [
+        2017,
+        2018,
+        2019
+      ],
+      "recent": [
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "period_comparison": [
+      {
+        "fuel_category": "diesel",
+        "earlier_registrations": 8378,
+        "recent_registrations": 14196,
+        "earlier_share": 0.0046504063416044844,
+        "recent_share": 0.005548012821865642,
+        "share_point_change": 0.0008976064802611577
+      },
+      {
+        "fuel_category": "diesel_ng",
+        "earlier_registrations": 0,
+        "recent_registrations": 1,
+        "earlier_share": 0.0,
+        "recent_share": 3.9081521709394497e-07,
+        "share_point_change": 3.9081521709394497e-07
+      },
+      {
+        "fuel_category": "electric",
+        "earlier_registrations": 79,
+        "recent_registrations": 79902,
+        "earlier_share": 4.385081176733758e-05,
+        "recent_share": 0.031226917476240387,
+        "share_point_change": 0.03118306666447305
+      },
+      {
+        "fuel_category": "greendiesel",
+        "earlier_registrations": 135137,
+        "recent_registrations": 158261,
+        "earlier_share": 0.07501097657978101,
+        "recent_share": 0.06185080707250482,
+        "share_point_change": -0.013160169507276186
+      },
+      {
+        "fuel_category": "greendiesel_ng",
+        "earlier_registrations": 1,
+        "recent_registrations": 3,
+        "earlier_share": 5.550735666751593e-07,
+        "recent_share": 1.1724456512818349e-06,
+        "share_point_change": 6.173720846066756e-07
+      },
+      {
+        "fuel_category": "hybrid_diesel",
+        "earlier_registrations": 16,
+        "recent_registrations": 22,
+        "earlier_share": 8.881177066802549e-06,
+        "recent_share": 8.597934776066788e-06,
+        "share_point_change": -2.8324229073576075e-07
+      },
+      {
+        "fuel_category": "hybrid_petrol",
+        "earlier_registrations": 22848,
+        "recent_registrations": 77909,
+        "earlier_share": 0.012682320851394039,
+        "recent_share": 0.030448022748572157,
+        "share_point_change": 0.01776570189717812
+      },
+      {
+        "fuel_category": "hydrogen",
+        "earlier_registrations": 2,
+        "recent_registrations": 0,
+        "earlier_share": 1.1101471333503186e-06,
+        "recent_share": 0.0,
+        "share_point_change": -1.1101471333503186e-06
+      },
+      {
+        "fuel_category": "ng",
+        "earlier_registrations": 1,
+        "recent_registrations": 0,
+        "earlier_share": 5.550735666751593e-07,
+        "recent_share": 0.0,
+        "share_point_change": -5.550735666751593e-07
+      },
+      {
+        "fuel_category": "other",
+        "earlier_registrations": 9,
+        "recent_registrations": 2,
+        "earlier_share": 4.995662100076433e-06,
+        "recent_share": 7.816304341878899e-07,
+        "share_point_change": -4.214031665888543e-06
+      },
+      {
+        "fuel_category": "petrol",
+        "earlier_registrations": 1634695,
+        "recent_registrations": 2228452,
+        "earlier_share": 0.9073759840760495,
+        "recent_share": 0.8709129521634358,
+        "share_point_change": -0.036463031912613686
+      },
+      {
+        "fuel_category": "petrol_lng",
+        "earlier_registrations": 43,
+        "recent_registrations": 0,
+        "earlier_share": 2.386816336703185e-05,
+        "recent_share": 0.0,
+        "share_point_change": -2.386816336703185e-05
+      },
+      {
+        "fuel_category": "petrol_ng",
+        "earlier_registrations": 354,
+        "recent_registrations": 6,
+        "earlier_share": 0.00019649604260300638,
+        "recent_share": 2.3448913025636697e-06,
+        "share_point_change": -0.0001941511513004427
+      }
+    ]
+  },
+  "electric_hybrid": {
+    "electric_registrations": 131117,
+    "hybrid_registrations": 208646,
+    "hybrid_petrol_registrations": 205849,
+    "hybrid_diesel_registrations": 2797,
+    "partial_years": [
+      2026
+    ],
+    "first_complete_year_with_electric": 2009,
+    "latest_complete_year": 2025,
+    "latest_complete_electric_share": 0.051498067084354185,
+    "latest_complete_hybrid_share": 0.03584282936560835,
+    "annual": [
+      {
+        "registration_year": 2000,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "registration_year": 2001,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "registration_year": 2002,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "registration_year": 2003,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "registration_year": 2004,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 1,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 2.0440534397331284e-06
+      },
+      {
+        "registration_year": 2005,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "registration_year": 2006,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "registration_year": 2007,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "registration_year": 2008,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 0,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 0.0
+      },
+      {
+        "registration_year": 2009,
+        "is_partial_year": false,
+        "electric_registrations": 1,
+        "hybrid_registrations": 3,
+        "electric_registration_share": 1.8546441216127244e-06,
+        "hybrid_registration_share": 5.563932364838173e-06
+      },
+      {
+        "registration_year": 2010,
+        "is_partial_year": false,
+        "electric_registrations": 0,
+        "hybrid_registrations": 2,
+        "electric_registration_share": 0.0,
+        "hybrid_registration_share": 3.286441293477564e-06
+      },
+      {
+        "registration_year": 2011,
+        "is_partial_year": false,
+        "electric_registrations": 6,
+        "hybrid_registrations": 381,
+        "electric_registration_share": 9.876689531202931e-06,
+        "hybrid_registration_share": 0.0006271697852313861
+      },
+      {
+        "registration_year": 2012,
+        "is_partial_year": false,
+        "electric_registrations": 25,
+        "hybrid_registrations": 12752,
+        "electric_registration_share": 3.949054043594397e-05,
+        "hybrid_registration_share": 0.0201433348655663
+      },
+      {
+        "registration_year": 2013,
+        "is_partial_year": false,
+        "electric_registrations": 17,
+        "hybrid_registrations": 16800,
+        "electric_registration_share": 2.5575024333883448e-05,
+        "hybrid_registration_share": 0.02527414169466129
+      },
+      {
+        "registration_year": 2014,
+        "is_partial_year": false,
+        "electric_registrations": 27,
+        "hybrid_registrations": 7644,
+        "electric_registration_share": 3.986922892911251e-05,
+        "hybrid_registration_share": 0.011287421701264297
+      },
+      {
+        "registration_year": 2015,
+        "is_partial_year": false,
+        "electric_registrations": 55,
+        "hybrid_registrations": 9643,
+        "electric_registration_share": 8.111723505267458e-05,
+        "hybrid_registration_share": 0.014222063592962563
+      },
+      {
+        "registration_year": 2016,
+        "is_partial_year": false,
+        "electric_registrations": 41,
+        "hybrid_registrations": 5856,
+        "electric_registration_share": 6.972148816265173e-05,
+        "hybrid_registration_share": 0.009958269138548501
+      },
+      {
+        "registration_year": 2017,
+        "is_partial_year": false,
+        "electric_registrations": 25,
+        "hybrid_registrations": 9149,
+        "electric_registration_share": 4.313185580848076e-05,
+        "hybrid_registration_share": 0.01578453395167162
+      },
+      {
+        "registration_year": 2018,
+        "is_partial_year": false,
+        "electric_registrations": 10,
+        "hybrid_registrations": 7749,
+        "electric_registration_share": 1.6420846593166957e-05,
+        "hybrid_registration_share": 0.012724514025045075
+      },
+      {
+        "registration_year": 2019,
+        "is_partial_year": false,
+        "electric_registrations": 44,
+        "hybrid_registrations": 5966,
+        "electric_registration_share": 7.178247300408018e-05,
+        "hybrid_registration_share": 0.009733050771416871
+      },
+      {
+        "registration_year": 2020,
+        "is_partial_year": false,
+        "electric_registrations": 71,
+        "hybrid_registrations": 1928,
+        "electric_registration_share": 0.0001285428491250939,
+        "hybrid_registration_share": 0.003490572015678607
+      },
+      {
+        "registration_year": 2021,
+        "is_partial_year": false,
+        "electric_registrations": 257,
+        "hybrid_registrations": 2731,
+        "electric_registration_share": 0.0004848635778781464,
+        "hybrid_registration_share": 0.0051523830007206926
+      },
+      {
+        "registration_year": 2022,
+        "is_partial_year": false,
+        "electric_registrations": 3128,
+        "hybrid_registrations": 15377,
+        "electric_registration_share": 0.004200055857520355,
+        "hybrid_registration_share": 0.020647141598814103
+      },
+      {
+        "registration_year": 2023,
+        "is_partial_year": false,
+        "electric_registrations": 13301,
+        "hybrid_registrations": 22215,
+        "electric_registration_share": 0.015980459649970143,
+        "hybrid_registration_share": 0.02669016698925545
+      },
+      {
+        "registration_year": 2024,
+        "is_partial_year": false,
+        "electric_registrations": 21788,
+        "hybrid_registrations": 24526,
+        "electric_registration_share": 0.02544622575291654,
+        "hybrid_registration_share": 0.028643938535709155
+      },
+      {
+        "registration_year": 2025,
+        "is_partial_year": false,
+        "electric_registrations": 44813,
+        "hybrid_registrations": 31190,
+        "electric_registration_share": 0.051498067084354185,
+        "hybrid_registration_share": 0.03584282936560835
+      },
+      {
+        "registration_year": 2026,
+        "is_partial_year": true,
+        "electric_registrations": 47508,
+        "hybrid_registrations": 34733,
+        "electric_registration_share": 0.0838451438010928,
+        "hybrid_registration_share": 0.061299010264447173
+      }
+    ]
+  },
+  "state_channel": {
+    "all_channels": [
+      {
+        "state_category": "Rakan Niaga",
+        "registration_count": 6746287,
+        "electric_registrations": 100250,
+        "hybrid_registrations": 134216,
+        "registration_share": 0.4229596903209109,
+        "electric_registration_share": 0.014860025966876298,
+        "hybrid_registration_share": 0.019894795463045078
+      },
+      {
+        "state_category": "W.P. Kuala Lumpur",
+        "registration_count": 3349968,
+        "electric_registrations": 14672,
+        "hybrid_registrations": 38566,
+        "registration_share": 0.21002685297334095,
+        "electric_registration_share": 0.0043797433288915,
+        "hybrid_registration_share": 0.011512348774674863
+      },
+      {
+        "state_category": "Johor",
+        "registration_count": 1119732,
+        "electric_registrations": 2824,
+        "hybrid_registrations": 8513,
+        "registration_share": 0.07020180137050414,
+        "electric_registration_share": 0.0025220320576709427,
+        "hybrid_registration_share": 0.007602712077532838
+      },
+      {
+        "state_category": "Pulau Pinang",
+        "registration_count": 817469,
+        "electric_registrations": 2389,
+        "hybrid_registrations": 6131,
+        "registration_share": 0.05125136761702322,
+        "electric_registration_share": 0.002922434979185755,
+        "hybrid_registration_share": 0.007499978592460387
+      },
+      {
+        "state_category": "Selangor",
+        "registration_count": 725274,
+        "electric_registrations": 5070,
+        "hybrid_registrations": 6585,
+        "registration_share": 0.04547118532576636,
+        "electric_registration_share": 0.006990461535916081,
+        "hybrid_registration_share": 0.009079327261145444
+      },
+      {
+        "state_category": "Sarawak",
+        "registration_count": 676587,
+        "electric_registrations": 1013,
+        "hybrid_registrations": 2755,
+        "registration_share": 0.04241874500672061,
+        "electric_registration_share": 0.0014972206087317669,
+        "hybrid_registration_share": 0.0040719079734017945
+      },
+      {
+        "state_category": "Sabah",
+        "registration_count": 548696,
+        "electric_registrations": 1061,
+        "hybrid_registrations": 2025,
+        "registration_share": 0.034400595503915346,
+        "electric_registration_share": 0.001933675477860236,
+        "hybrid_registration_share": 0.0036905681834750025
+      },
+      {
+        "state_category": "Perak",
+        "registration_count": 507641,
+        "electric_registrations": 968,
+        "hybrid_registrations": 2740,
+        "registration_share": 0.03182664481279814,
+        "electric_registration_share": 0.0019068593750307795,
+        "hybrid_registration_share": 0.005397515173124315
+      },
+      {
+        "state_category": "Pahang",
+        "registration_count": 277157,
+        "electric_registrations": 567,
+        "hybrid_registrations": 1142,
+        "registration_share": 0.017376408517792485,
+        "electric_registration_share": 0.002045771891022056,
+        "hybrid_registration_share": 0.004120408288443012
+      },
+      {
+        "state_category": "Melaka",
+        "registration_count": 253762,
+        "electric_registrations": 760,
+        "hybrid_registrations": 1799,
+        "registration_share": 0.01590965473826047,
+        "electric_registration_share": 0.0029949322593611338,
+        "hybrid_registration_share": 0.007089319913935105
+      },
+      {
+        "state_category": "Kedah",
+        "registration_count": 248513,
+        "electric_registrations": 603,
+        "hybrid_registrations": 1112,
+        "registration_share": 0.01558056772869588,
+        "electric_registration_share": 0.0024264324200343646,
+        "hybrid_registration_share": 0.0044746150100799555
+      },
+      {
+        "state_category": "Kelantan",
+        "registration_count": 232337,
+        "electric_registrations": 263,
+        "hybrid_registrations": 824,
+        "registration_share": 0.01456641046698569,
+        "electric_registration_share": 0.0011319763963552943,
+        "hybrid_registration_share": 0.0035465724357291346
+      },
+      {
+        "state_category": "Negeri Sembilan",
+        "registration_count": 223704,
+        "electric_registrations": 439,
+        "hybrid_registrations": 1345,
+        "registration_share": 0.01402516296201882,
+        "electric_registration_share": 0.001962414619318385,
+        "hybrid_registration_share": 0.00601240925508708
+      },
+      {
+        "state_category": "Terengganu",
+        "registration_count": 156035,
+        "electric_registrations": 144,
+        "hybrid_registrations": 592,
+        "registration_share": 0.009782642700973638,
+        "electric_registration_share": 0.000922869868939661,
+        "hybrid_registration_share": 0.003794020572307495
+      },
+      {
+        "state_category": "W.P. Labuan",
+        "registration_count": 43796,
+        "electric_registrations": 23,
+        "hybrid_registrations": 87,
+        "registration_share": 0.0027457981845857753,
+        "electric_registration_share": 0.0005251621152616677,
+        "hybrid_registration_share": 0.0019864827838158737
+      },
+      {
+        "state_category": "Perlis",
+        "registration_count": 22897,
+        "electric_registrations": 70,
+        "hybrid_registrations": 213,
+        "registration_share": 0.0014355315789674969,
+        "electric_registration_share": 0.003057169061449098,
+        "hybrid_registration_share": 0.009302528715552255
+      },
+      {
+        "state_category": "W.P. Putrajaya",
+        "registration_count": 334,
+        "electric_registrations": 1,
+        "hybrid_registrations": 1,
+        "registration_share": 2.094019074005957e-05,
+        "electric_registration_share": 0.0029940119760479044,
+        "hybrid_registration_share": 0.0029940119760479044
+      }
+    ],
+    "geographic_offices": [
+      {
+        "state_category": "W.P. Kuala Lumpur",
+        "registration_count": 3349968,
+        "electric_registrations": 14672,
+        "hybrid_registrations": 38566,
+        "registration_share": 0.21002685297334095,
+        "electric_registration_share": 0.0043797433288915,
+        "hybrid_registration_share": 0.011512348774674863,
+        "geographic_share": 0.3639725846711536
+      },
+      {
+        "state_category": "Johor",
+        "registration_count": 1119732,
+        "electric_registrations": 2824,
+        "hybrid_registrations": 8513,
+        "registration_share": 0.07020180137050414,
+        "electric_registration_share": 0.0025220320576709427,
+        "hybrid_registration_share": 0.007602712077532838,
+        "geographic_share": 0.12165840096950185
+      },
+      {
+        "state_category": "Pulau Pinang",
+        "registration_count": 817469,
+        "electric_registrations": 2389,
+        "hybrid_registrations": 6131,
+        "registration_share": 0.05125136761702322,
+        "electric_registration_share": 0.002922434979185755,
+        "hybrid_registration_share": 0.007499978592460387,
+        "geographic_share": 0.08881765581597892
+      },
+      {
+        "state_category": "Selangor",
+        "registration_count": 725274,
+        "electric_registrations": 5070,
+        "hybrid_registrations": 6585,
+        "registration_share": 0.04547118532576636,
+        "electric_registration_share": 0.006990461535916081,
+        "hybrid_registration_share": 0.009079327261145444,
+        "geographic_share": 0.07880070865595917
+      },
+      {
+        "state_category": "Sarawak",
+        "registration_count": 676587,
+        "electric_registrations": 1013,
+        "hybrid_registrations": 2755,
+        "registration_share": 0.04241874500672061,
+        "electric_registration_share": 0.0014972206087317669,
+        "hybrid_registration_share": 0.0040719079734017945,
+        "geographic_share": 0.07351088701292126
+      },
+      {
+        "state_category": "Sabah",
+        "registration_count": 548696,
+        "electric_registrations": 1061,
+        "hybrid_registrations": 2025,
+        "registration_share": 0.034400595503915346,
+        "electric_registration_share": 0.001933675477860236,
+        "hybrid_registration_share": 0.0036905681834750025,
+        "geographic_share": 0.05961558478132427
+      },
+      {
+        "state_category": "Perak",
+        "registration_count": 507641,
+        "electric_registrations": 968,
+        "hybrid_registrations": 2740,
+        "registration_share": 0.03182664481279814,
+        "electric_registration_share": 0.0019068593750307795,
+        "hybrid_registration_share": 0.005397515173124315,
+        "geographic_share": 0.05515497666098574
+      },
+      {
+        "state_category": "Pahang",
+        "registration_count": 277157,
+        "electric_registrations": 567,
+        "hybrid_registrations": 1142,
+        "registration_share": 0.017376408517792485,
+        "electric_registration_share": 0.002045771891022056,
+        "hybrid_registration_share": 0.004120408288443012,
+        "geographic_share": 0.03011298903443344
+      },
+      {
+        "state_category": "Melaka",
+        "registration_count": 253762,
+        "electric_registrations": 760,
+        "hybrid_registrations": 1799,
+        "registration_share": 0.01590965473826047,
+        "electric_registration_share": 0.0029949322593611338,
+        "hybrid_registration_share": 0.007089319913935105,
+        "geographic_share": 0.02757113233061369
+      },
+      {
+        "state_category": "Kedah",
+        "registration_count": 248513,
+        "electric_registrations": 603,
+        "hybrid_registrations": 1112,
+        "registration_share": 0.01558056772869588,
+        "electric_registration_share": 0.0024264324200343646,
+        "hybrid_registration_share": 0.0044746150100799555,
+        "geographic_share": 0.027000830734616687
+      },
+      {
+        "state_category": "Kelantan",
+        "registration_count": 232337,
+        "electric_registrations": 263,
+        "hybrid_registrations": 824,
+        "registration_share": 0.01456641046698569,
+        "electric_registration_share": 0.0011319763963552943,
+        "hybrid_registration_share": 0.0035465724357291346,
+        "geographic_share": 0.025243315280845016
+      },
+      {
+        "state_category": "Negeri Sembilan",
+        "registration_count": 223704,
+        "electric_registrations": 439,
+        "hybrid_registrations": 1345,
+        "registration_share": 0.01402516296201882,
+        "electric_registration_share": 0.001962414619318385,
+        "hybrid_registration_share": 0.00601240925508708,
+        "geographic_share": 0.024305343537990735
+      },
+      {
+        "state_category": "Terengganu",
+        "registration_count": 156035,
+        "electric_registrations": 144,
+        "hybrid_registrations": 592,
+        "registration_share": 0.009782642700973638,
+        "electric_registration_share": 0.000922869868939661,
+        "hybrid_registration_share": 0.003794020572307495,
+        "geographic_share": 0.01695313574612159
+      },
+      {
+        "state_category": "W.P. Labuan",
+        "registration_count": 43796,
+        "electric_registrations": 23,
+        "hybrid_registrations": 87,
+        "registration_share": 0.0027457981845857753,
+        "electric_registration_share": 0.0005251621152616677,
+        "hybrid_registration_share": 0.0019864827838158737,
+        "geographic_share": 0.004758416593310099
+      },
+      {
+        "state_category": "Perlis",
+        "registration_count": 22897,
+        "electric_registrations": 70,
+        "hybrid_registrations": 213,
+        "registration_share": 0.0014355315789674969,
+        "electric_registration_share": 0.003057169061449098,
+        "hybrid_registration_share": 0.009302528715552255,
+        "geographic_share": 0.002487749217668767
+      },
+      {
+        "state_category": "W.P. Putrajaya",
+        "registration_count": 334,
+        "electric_registrations": 1,
+        "hybrid_registrations": 1,
+        "registration_share": 2.094019074005957e-05,
+        "electric_registration_share": 0.0029940119760479044,
+        "hybrid_registration_share": 0.0029940119760479044,
+        "geographic_share": 3.628895657515693e-05
+      }
+    ],
+    "geographic_registration_count": 9203902,
+    "national_registration_count": 15950189,
+    "hhi_all_channels": 0.23793648610137602,
+    "hhi_geographic_offices": 0.17731509704767057,
+    "rakan_niaga_registrations": 6746287,
+    "rakan_niaga_share": 0.4229596903209109,
+    "rakan_niaga_by_year": [
+      {
+        "registration_year": 2014,
+        "is_partial_year": false,
+        "registrations": 171649,
+        "registration_share": 0.2534634546834531
+      },
+      {
+        "registration_year": 2015,
+        "is_partial_year": false,
+        "registrations": 435596,
+        "registration_share": 0.6424426021819062
+      },
+      {
+        "registration_year": 2016,
+        "is_partial_year": false,
+        "registrations": 429835,
+        "registration_share": 0.730944777180327
+      },
+      {
+        "registration_year": 2017,
+        "is_partial_year": false,
+        "registrations": 464210,
+        "registration_share": 0.8008895513941942
+      },
+      {
+        "registration_year": 2018,
+        "is_partial_year": false,
+        "registrations": 494492,
+        "registration_share": 0.8119977273548316
+      },
+      {
+        "registration_year": 2019,
+        "is_partial_year": false,
+        "registrations": 509603,
+        "registration_share": 0.8313764452340516
+      },
+      {
+        "registration_year": 2020,
+        "is_partial_year": false,
+        "registrations": 467515,
+        "registration_share": 0.8464184522354687
+      },
+      {
+        "registration_year": 2021,
+        "is_partial_year": false,
+        "registrations": 453487,
+        "registration_share": 0.8555615927674202
+      },
+      {
+        "registration_year": 2022,
+        "is_partial_year": false,
+        "registrations": 633706,
+        "registration_share": 0.8508953316003179
+      },
+      {
+        "registration_year": 2023,
+        "is_partial_year": false,
+        "registrations": 710210,
+        "registration_share": 0.8532803735061496
+      },
+      {
+        "registration_year": 2024,
+        "is_partial_year": false,
+        "registrations": 731072,
+        "registration_share": 0.8538196784301543
+      },
+      {
+        "registration_year": 2025,
+        "is_partial_year": false,
+        "registrations": 749203,
+        "registration_share": 0.8609668255595343
+      },
+      {
+        "registration_year": 2026,
+        "is_partial_year": true,
+        "registrations": 495709,
+        "registration_share": 0.8748588109054457
+      }
+    ],
+    "rakan_niaga_first_year": 2014,
+    "rakan_niaga_latest_complete_share": 0.8609668255595343
+  },
+  "tests": [
+    {
+      "id": "calendar_month_volume",
+      "primary": true,
+      "research_question": "Do recorded monthly registration volumes differ by calendar month?",
+      "null_hypothesis": "The distribution of year-month registration counts is the same for every calendar month.",
+      "alternative_hypothesis": "At least one calendar month has a different distribution.",
+      "variables": "Response: registration count for one year-month. Factor: calendar month number.",
+      "test": "Kruskal-Wallis",
+      "assumptions": "Each observation is one year-month, not one registration transaction. The test does not assume a normal distribution. Year-months are treated as separate observations, although successive years are not fully independent. Low-volume months stay in this primary test.",
+      "limitation": "A difference between month distributions can reflect level changes across eras as well as a repeating within-year pattern. The year-normalized month shares are the descriptive check for a within-year pattern. This is not an anomaly-detection result.",
+      "applicable": true,
+      "reason": null,
+      "statistic": 21.922488484170685,
+      "p_value": 0.024980658847696274,
+      "sample_size": 320,
+      "effect_size_name": "epsilon_squared",
+      "effect_size": 0.06872253443313694,
+      "effect_size_label": "medium",
+      "confidence_interval": null,
+      "groups": 12,
+      "degrees_of_freedom": null,
+      "included_fuel_categories": null,
+      "omitted_fuel_categories": null,
+      "share_of_period_registrations_included": null,
+      "earlier_years": null,
+      "recent_years": null,
+      "in_bonferroni_family": true,
+      "p_value_adjusted": 0.0999226353907851,
+      "null_rejected": false,
+      "conclusion": "The null hypothesis is not rejected at the Bonferroni-adjusted 5% level.",
+      "interpretation": "The null hypothesis is not rejected at the Bonferroni-adjusted 5% level. Statistical significance is separate from practical importance. The effect-size label uses conventional benchmarks only as a reading aid."
+    },
+    {
+      "id": "calendar_month_volume_sensitivity",
+      "primary": false,
+      "research_question": "Does the calendar-month comparison change if the low-volume months are set aside?",
+      "null_hypothesis": "The distribution of the remaining year-month counts is the same for every calendar month.",
+      "alternative_hypothesis": "At least one calendar month still has a different distribution.",
+      "variables": "Same as the primary calendar-month test, after removing months below 10% of the median monthly count.",
+      "test": "Kruskal-Wallis sensitivity",
+      "assumptions": "This is a sensitivity check. It is not in the Bonferroni family and it does not remove the months from the dataset.",
+      "limitation": "Setting unusual months aside changes the question being asked. The primary result keeps those months.",
+      "applicable": true,
+      "reason": null,
+      "statistic": 21.869458308625553,
+      "p_value": 0.025404296157784525,
+      "sample_size": 318,
+      "effect_size_name": "epsilon_squared",
+      "effect_size": 0.0689888274720049,
+      "effect_size_label": "medium",
+      "confidence_interval": null,
+      "groups": 12,
+      "degrees_of_freedom": null,
+      "included_fuel_categories": null,
+      "omitted_fuel_categories": null,
+      "share_of_period_registrations_included": null,
+      "earlier_years": null,
+      "recent_years": null,
+      "p_value_adjusted": null,
+      "in_bonferroni_family": false,
+      "conclusion": "The unadjusted p-value is below 5%. This test is outside the Bonferroni family. The effect size is medium.",
+      "interpretation": "The unadjusted p-value is below 5%. This test is outside the Bonferroni family. The effect size is medium. Statistical significance is separate from practical importance. The effect-size label uses conventional benchmarks only as a reading aid."
+    },
+    {
+      "id": "electric_share_trend",
+      "primary": true,
+      "research_question": "Does the annual share of recorded registrations classified as electric change monotonically across complete years?",
+      "null_hypothesis": "The Spearman rank correlation between year and annual electric registration share is zero.",
+      "alternative_hypothesis": "The rank correlation is not zero.",
+      "variables": "Paired observations are complete registration years. The share is electric registrations divided by that year's registrations.",
+      "test": "Spearman rank correlation",
+      "assumptions": "The correlation describes a monotonic association. Partial years are excluded. Years are ordered but are not a random sample from a larger population of years.",
+      "limitation": "A rank correlation with year does not identify a cause. It does not estimate a future share.",
+      "applicable": true,
+      "reason": null,
+      "statistic": 0.9463969368850593,
+      "p_value": 2.8207498984553584e-13,
+      "sample_size": 26,
+      "effect_size_name": "absolute_spearman_rho",
+      "effect_size": 0.9463969368850593,
+      "effect_size_label": "large",
+      "confidence_interval": [
+        0.8825923004952191,
+        0.9759698542392566
+      ],
+      "groups": null,
+      "degrees_of_freedom": null,
+      "included_fuel_categories": null,
+      "omitted_fuel_categories": null,
+      "share_of_period_registrations_included": null,
+      "earlier_years": null,
+      "recent_years": null,
+      "in_bonferroni_family": true,
+      "p_value_adjusted": 1.1282999593821433e-12,
+      "null_rejected": true,
+      "conclusion": "The null hypothesis is rejected at the Bonferroni-adjusted 5% level. The effect size is large.",
+      "interpretation": "The null hypothesis is rejected at the Bonferroni-adjusted 5% level. The effect size is large. Statistical significance is separate from practical importance. The effect-size label uses conventional benchmarks only as a reading aid."
+    },
+    {
+      "id": "hybrid_share_trend",
+      "primary": true,
+      "research_question": "Does the annual share of recorded registrations classified as hybrid change monotonically across complete years?",
+      "null_hypothesis": "The Spearman rank correlation between year and annual hybrid registration share is zero.",
+      "alternative_hypothesis": "The rank correlation is not zero.",
+      "variables": "Paired observations are complete registration years. Hybrid means hybrid_petrol or hybrid_diesel. Those fuel codes stay separate in the fuel tables.",
+      "test": "Spearman rank correlation",
+      "assumptions": "Same design as the electric-share correlation. A partial latest year is excluded.",
+      "limitation": "A rank correlation with year does not identify a cause and is not a forecast.",
+      "applicable": true,
+      "reason": null,
+      "statistic": 0.8620408391561969,
+      "p_value": 1.5242389727530637e-08,
+      "sample_size": 26,
+      "effect_size_name": "absolute_spearman_rho",
+      "effect_size": 0.8620408391561969,
+      "effect_size_label": "large",
+      "confidence_interval": [
+        0.7126495101856015,
+        0.9366381682261128
+      ],
+      "groups": null,
+      "degrees_of_freedom": null,
+      "included_fuel_categories": null,
+      "omitted_fuel_categories": null,
+      "share_of_period_registrations_included": null,
+      "earlier_years": null,
+      "recent_years": null,
+      "in_bonferroni_family": true,
+      "p_value_adjusted": 6.096955891012255e-08,
+      "null_rejected": true,
+      "conclusion": "The null hypothesis is rejected at the Bonferroni-adjusted 5% level. The effect size is large.",
+      "interpretation": "The null hypothesis is rejected at the Bonferroni-adjusted 5% level. The effect size is large. Statistical significance is separate from practical importance. The effect-size label uses conventional benchmarks only as a reading aid."
+    },
+    {
+      "id": "volume_and_electric_share",
+      "primary": false,
+      "research_question": "Are annual registration volume and annual electric registration share associated across complete years?",
+      "null_hypothesis": "The Spearman rank correlation between annual registration count and annual electric share is zero.",
+      "alternative_hypothesis": "The rank correlation is not zero.",
+      "variables": "Complete years only. Volume is the annual registration count. Electric share uses that same year's count as the denominator.",
+      "test": "Spearman rank correlation",
+      "assumptions": "Two-sided rank correlation. This association is not in the Bonferroni family because volume and electric share can move together through a shared time trend.",
+      "limitation": "An association between volume and electric share is not evidence that one produces the other. Both can follow the same time order.",
+      "applicable": true,
+      "reason": null,
+      "statistic": 0.7697174045993398,
+      "p_value": 4.286457935819071e-06,
+      "sample_size": 26,
+      "effect_size_name": "absolute_spearman_rho",
+      "effect_size": 0.7697174045993398,
+      "effect_size_label": "large",
+      "confidence_interval": [
+        0.5447924661655987,
+        0.8913222543035814
+      ],
+      "groups": null,
+      "degrees_of_freedom": null,
+      "included_fuel_categories": null,
+      "omitted_fuel_categories": null,
+      "share_of_period_registrations_included": null,
+      "earlier_years": null,
+      "recent_years": null,
+      "p_value_adjusted": null,
+      "in_bonferroni_family": false,
+      "conclusion": "The unadjusted p-value is below 5%. This test is outside the Bonferroni family. The effect size is large.",
+      "interpretation": "The unadjusted p-value is below 5%. This test is outside the Bonferroni family. The effect size is large. Statistical significance is separate from practical importance. The effect-size label uses conventional benchmarks only as a reading aid."
+    },
+    {
+      "id": "fuel_composition_periods",
+      "primary": true,
+      "research_question": "Does the fuel-category composition of recorded registrations differ between 2017-2019 and 2023-2025?",
+      "null_hypothesis": "Fuel category and period are independent in the included categories.",
+      "alternative_hypothesis": "Fuel category and period are not independent.",
+      "variables": "Counts of registration transactions in two windows of complete years. Each window is three years. The windows are 2017-2019 and the latest three complete years when both exist. 2020 and 2021, which contain the low-volume months, are outside both windows. The partial latest year is outside both windows.",
+      "test": "Chi-square test of independence",
+      "assumptions": "Expected counts must be at least 5. Categories that break that rule are omitted from the test and listed. They remain in the descriptive fuel table. No continuity correction is applied. Omitted from the test: diesel_ng, ng, hydrogen, greendiesel_ng, other.",
+      "limitation": "The sample size is a count of registration transactions, so a small composition difference can produce a very small p-value. Practical reading uses Cramér's V and the change in shares. The test does not say why the composition differs, and it does not merge the omitted fuel codes into another code.",
+      "applicable": true,
+      "reason": null,
+      "statistic": 75499.9234476659,
+      "p_value": 0.0,
+      "sample_size": 4360298,
+      "effect_size_name": "cramers_v",
+      "effect_size": 0.13158766175366404,
+      "effect_size_label": "small",
+      "confidence_interval": null,
+      "groups": null,
+      "degrees_of_freedom": 7,
+      "included_fuel_categories": [
+        "diesel",
+        "electric",
+        "greendiesel",
+        "hybrid_diesel",
+        "hybrid_petrol",
+        "petrol",
+        "petrol_lng",
+        "petrol_ng"
+      ],
+      "omitted_fuel_categories": [
+        "diesel_ng",
+        "ng",
+        "hydrogen",
+        "greendiesel_ng",
+        "other"
+      ],
+      "share_of_period_registrations_included": 0.9999956425186517,
+      "earlier_years": [
+        2017,
+        2018,
+        2019
+      ],
+      "recent_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "in_bonferroni_family": true,
+      "p_value_adjusted": 0.0,
+      "null_rejected": true,
+      "conclusion": "The null hypothesis is rejected at the Bonferroni-adjusted 5% level. The effect size is small.",
+      "interpretation": "The null hypothesis is rejected at the Bonferroni-adjusted 5% level. The effect size is small. Statistical significance is separate from practical importance. The effect-size label uses conventional benchmarks only as a reading aid."
+    }
+  ],
+  "multiple_testing": {
+    "method": "Bonferroni",
+    "alpha": 0.05,
+    "family_size": 4,
+    "alpha_adjusted": 0.0125,
+    "primary_test_ids": [
+      "calendar_month_volume",
+      "electric_share_trend",
+      "hybrid_share_trend",
+      "fuel_composition_periods"
+    ]
+  },
+  "phase5": [
+    "A candidate forecasting target is the monthly count of recorded registrations from 2000-01-02 through 2026-08-31. The grain is one month. The series includes every channel and the low-volume months.",
+    "2026 is observed through August and is a partial year. A later model should not treat that year as a full year equal to the previous full year. This phase does not extend it to a full-year figure.",
+    "Calendar month is not supported as a strong feature by the primary test.",
+    "The national monthly count mixes geographic registration offices and the Rakan Niaga channel. Rakan Niaga accounts for 42.3% of recorded registrations in the full series. Its share in 2014 and in the latest complete year should be read from the annual channel table before a later model treats the national series as one stable process.",
+    "A second candidate target is the monthly count of registrations classified as electric. The first complete year with an electric registration in this snapshot is 2009. Early years are sparse. Electric share is a composition of recorded registrations, not a measure of consumer adoption.",
+    "The rank correlations of electric share and hybrid share with year are exploratory. They do not mean a later model should use year as its main predictor of registration volume.",
+    "Annual electric share, fuel-category share, and manufacturer share are not adopted as forecasting predictors. Any later use would need a time-ordered evaluation and a leakage check. An association with registration volume is not evidence that one series causes the other.",
+    "Low-volume months remain in the series. A later model has to decide how to treat them with that limitation stated, rather than dropping them silently."
+  ],
+  "loaded_all_rows_into_python_memory": false,
+  "largest_frame_rows": 16330,
+  "phase3_fact_rows": 15950189,
+  "charts": [
+    "01_annual_registrations.png",
+    "02_yoy_complete_years.png",
+    "03_like_for_like.png",
+    "04_monthly_registrations.png",
+    "05_calendar_month_boxplot.png",
+    "06_year_normalized_month.png",
+    "07_manufacturer_totals.png",
+    "08_manufacturer_share_trends.png",
+    "09_model_pairs.png",
+    "10_vehicle_type_shares.png",
+    "11_vehicle_type_trends.png",
+    "12_fuel_composition.png",
+    "13_ev_hybrid_annual.png",
+    "14_ev_hybrid_monthly.png",
+    "15_state_channel.png",
+    "16_geographic_offices.png",
+    "17_rakan_niaga_share.png",
+    "18_concentration.png"
+  ],
+  "elapsed_seconds": 5.538
+}

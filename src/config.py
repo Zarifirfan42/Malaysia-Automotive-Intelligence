@@ -76,6 +76,11 @@ PROCESSED_METADATA_PATH = PROCESSED_DIR / "dataset_metadata.json"
 DUCKDB_PATH = ANALYTICAL_DIR / "registrations.duckdb"
 PHASE3_REPORT_JSON = QUALITY_DIR / "phase3_reconciliation.json"
 PHASE3_REPORT_MD = QUALITY_DIR / "phase3_reconciliation.md"
+ANALYSIS_DIR = DATA_DIR / "analysis"
+PHASE4_REPORT_DIR = PROJECT_ROOT / "reports" / "phase4"
+PHASE4_FIGURES_DIR = PHASE4_REPORT_DIR / "figures"
+PHASE4_REPORT_MD = PHASE4_REPORT_DIR / "phase4_report.md"
+PHASE4_RESULTS_JSON = ANALYSIS_DIR / "phase4_results.json"
 
 
 def dataset_years() -> tuple[int, ...]:

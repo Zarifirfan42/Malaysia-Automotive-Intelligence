@@ -51,6 +51,7 @@ pip install -r requirements.txt
 python -m src
 python -m src.transformation
 python -m src.analytical
+python -m src.analysis
 python -m pytest
 ```
 
@@ -62,6 +63,8 @@ Phase 3 adds DuckDB views over the processed Parquet. `fact_registrations` has o
 
 A registration share is group registrations divided by all recorded registrations in the same period. It is not a share of vehicle sales.
 
+Phase 4 writes an exploratory report from those views with `python -m src.analysis`. The findings are in `reports/phase4/phase4_report.md`. Forecasting, anomaly detection, and Power BI are later phases.
+
 ## Layout
 
 ```text
@@ -69,10 +72,12 @@ data/raw/          official Parquet files, not committed
 data/processed/    one directory per registration year, Parquet not committed
 data/analytical/   gitignored DuckDB views, rebuilt from sql/
 data/quality/      acquisition, transformation, and reconciliation audits
-sql/               fact, analytical views, and validation queries
+sql/               fact, analytical views, validation, and analysis extracts
 src/ingestion/     download
 src/validation/    Phase 1 checks
 src/transformation Phase 2 cleaning
 src/analytical/    Phase 3 DuckDB build
+src/analysis/      Phase 4 exploratory and statistical analysis
+reports/phase4/    generated Phase 4 report and charts
 tests/             invariant tests
 ```
