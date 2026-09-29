@@ -3,8 +3,12 @@ data/raw/*.parquet
 data/raw/*.csv
 data/raw/*.partial
 
-# Later-phase generated datasets
-data/processed/
+# Processed Parquet is rebuilt by: python -m src.transformation
+# Audit files under data/quality and data/processed/dataset_metadata.json stay visible.
+data/processed/**/*.parquet
+data/processed/**/*.partial
+data/processed/_building/
+data/processed/_previous/
 
 # Python
 __pycache__/

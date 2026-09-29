@@ -1,4 +1,4 @@
-"""Paths, source contract, and validation rules for Phase 1.
+"""Paths, source contract, and validation rules.
 
 Row counts and other measured statistics are never stored here. Those
 values are calculated from the downloaded files at runtime.
@@ -11,6 +11,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
+PROCESSED_DIR = DATA_DIR / "processed"
 QUALITY_DIR = DATA_DIR / "quality"
 
 DATASET_ID = "registration_transactions_car"
@@ -66,6 +67,10 @@ USER_AGENT = "MalaysiaAutomotiveIntelligence/0.1 (phase-1 dataset validation)"
 MANIFEST_PATH = QUALITY_DIR / "source_manifest.json"
 QUALITY_REPORT_JSON = QUALITY_DIR / "data_quality_report.json"
 QUALITY_REPORT_MD = QUALITY_DIR / "data_quality_report.md"
+TRANSFORMATION_MAPPING_PATH = QUALITY_DIR / "transformation_mapping.csv"
+PHASE2_REPORT_JSON = QUALITY_DIR / "phase2_transformation_report.json"
+PHASE2_REPORT_MD = QUALITY_DIR / "phase2_transformation_report.md"
+PROCESSED_METADATA_PATH = PROCESSED_DIR / "dataset_metadata.json"
 
 
 def dataset_years() -> tuple[int, ...]:

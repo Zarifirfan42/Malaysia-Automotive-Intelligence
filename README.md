@@ -21,35 +21,48 @@ Each row is one car **registration transaction**. It is not a sale, a purchase, 
 
 `greendiesel` remains its own source fuel category. It is not merged into `diesel`.
 
-The 2026 file is a partial year. It is not treated as a full calendar year. The pipeline reports the latest `date_reg` it actually finds.
+The latest yearly file may end before 31 December. That partial year is detected from `date_reg` and is not treated as a complete year.
 
 Identical source rows are retained. The files have no vehicle or transaction identifier, so matching rows can be separate registrations.
 
-## Phase 1
+The processed layer standardizes analytical representations while preserving the original JPJ source fields for traceability.
 
-Phase 1 downloads the official yearly Parquet files and validates them. Raw files in `data/raw/` are never edited. Measured counts are written to `data/quality/` and are not hard-coded.
+## Raw and processed data
 
-Later phases (cleaning, SQL, exploratory analysis, forecasting, anomaly detection, and Power BI) are not part of this phase.
+`data/raw/` is the immutable JPJ snapshot. Phase 2 reads those files and writes `data/processed/`. It does not overwrite raw Parquet, delete transactions, or deduplicate identical rows.
 
-### Run
+| Source field | Analytical field | Rule |
+| --- | --- | --- |
+| `maker` | `maker_clean` | Trim surrounding whitespace. Map a case variant only when one spelling of that same name is strictly more frequent. |
+| `model` | `model_clean` | Trim surrounding whitespace. Keep internal spaces. Do not rename `Unknown`. |
+| `fuel` | `fuel_category` | Exact copy. `greendiesel` stays separate from `diesel`. |
+| `state` | `state_category` | Exact copy. `Rakan Niaga` stays a channel and is not assigned to a state. |
+
+`is_electric` is 1 only when `fuel` is `electric`. `is_hybrid` is 1 only when `fuel` is `hybrid_petrol` or `hybrid_diesel`. Maker and model names are not used. `is_internal_combustion` is omitted because dual-fuel, gas, hydrogen, `greendiesel`, `other`, and `unknown` are not clearly internal combustion.
+
+`registration_year`, `registration_month`, `registration_month_number`, `registration_month_name`, `registration_quarter`, and `registration_year_month` come from `date_reg`. `registration_month` and `registration_month_number` are both the month number 1–12.
+
+The latest registration year is partial when its maximum `date_reg` is before 31 December. Those rows stay in the data. Unusually low months, including any month below 10% of the median monthly count, also stay. The dataset does not establish why a month is low.
+
+## Run
 
 ```bash
 pip install -r requirements.txt
 python -m src
-```
-
-Use `python -m src --force` to redownload a year that is already stored as readable Parquet. A failed download stops the run. An unreadable file is not kept as a successful download.
-
-```bash
+python -m src.transformation
 python -m pytest
 ```
+
+`python -m src --force` redownloads a readable raw file. A failed download stops Phase 1. Phase 2 stops if processed totals do not match the raw files.
 
 ## Layout
 
 ```text
-data/raw/         official Parquet files, not committed
-data/quality/     manifest and validation report
-src/ingestion/    download
-src/validation/   schema and quality checks
-tests/            invariant tests
+data/raw/          official Parquet files, not committed
+data/processed/    one directory per registration year, Parquet not committed
+data/quality/      acquisition and transformation audits
+src/ingestion/     download
+src/validation/    Phase 1 checks
+src/transformation Phase 2 cleaning
+tests/             invariant tests
 ```

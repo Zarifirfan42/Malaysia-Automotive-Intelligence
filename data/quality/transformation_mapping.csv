@@ -1,0 +1,5 @@
+source_value,clean_value,field,reason,row_count
+Mclaren,McLaren,maker,mapped case variant to the dominant spelling McLaren (332 trimmed rows); source maker preserved,9
+Bmw,BMW,maker,mapped case variant to the dominant spelling BMW (198083 trimmed rows); source maker preserved,1
+E Advance ,E Advance,model,trimmed surrounding whitespace; internal spacing preserved; source model preserved,29
+TF 160 ,TF 160,model,trimmed surrounding whitespace; internal spacing preserved; source model preserved,1

@@ -1,0 +1,97 @@
+{
+  "dataset_id": "registration_transactions_car",
+  "phase": 2,
+  "validation_status": "WARN",
+  "partitioning": {
+    "layout": "data/processed/registrations/<year>/registrations.parquet",
+    "reason": "Each official file is already one registration year, and Phase 1 found no date_reg year outside its file. Writing one year at a time avoids a second in-memory copy of the full dataset. Concatenating every year previously failed with a memory allocation error. Year folders are plain directories rather than registration_year=<year> hive keys, because that key collides with the registration_year column stored in the file."
+  },
+  "raw_row_count": 15950189,
+  "processed_row_count": 15950189,
+  "date_range": {
+    "minimum": "2000-01-02",
+    "maximum": "2026-08-31"
+  },
+  "partial_years": [
+    {
+      "year": 2026,
+      "minimum_date": "2026-01-01",
+      "maximum_date": "2026-08-31",
+      "message": "2026 is partial through 2026-08-31. Its rows were retained and it is not a complete calendar year."
+    }
+  ],
+  "low_volume_months": {
+    "fraction_of_median": 0.1,
+    "median_monthly_rows": 48663.0,
+    "threshold": 4866.3,
+    "months": {
+      "2020-04": 129,
+      "2021-06": 2063
+    }
+  },
+  "derived_field_definitions": [
+    {
+      "field": "maker_clean",
+      "definition": "maker with surrounding whitespace removed. A case variant is mapped to the single most frequent spelling of that same case-folded name. The source maker column is unchanged."
+    },
+    {
+      "field": "model_clean",
+      "definition": "model with surrounding whitespace removed. Internal spaces are kept. Models are not renamed, and Unknown is not converted to null."
+    },
+    {
+      "field": "fuel_category",
+      "definition": "Exact copy of the source fuel code. greendiesel is not merged into diesel, and dual-fuel codes are not merged into petrol or diesel."
+    },
+    {
+      "field": "state_category",
+      "definition": "Exact copy of the source state value. Rakan Niaga stays Rakan Niaga and is not assigned to a geographic state."
+    },
+    {
+      "field": "is_rakan_niaga",
+      "definition": "1 when state is exactly Rakan Niaga, otherwise 0."
+    },
+    {
+      "field": "is_electric",
+      "definition": "1 when fuel is exactly electric, otherwise 0. Maker and model are not used."
+    },
+    {
+      "field": "is_hybrid",
+      "definition": "1 when fuel is hybrid_petrol or hybrid_diesel, otherwise 0."
+    },
+    {
+      "field": "registration_year",
+      "definition": "Calendar year of date_reg."
+    },
+    {
+      "field": "registration_month",
+      "definition": "Calendar month of date_reg as an integer from 1 to 12."
+    },
+    {
+      "field": "registration_month_number",
+      "definition": "Same value as registration_month. Both names are stored so either can be used."
+    },
+    {
+      "field": "registration_month_name",
+      "definition": "English month name of date_reg, from a fixed list rather than the machine locale."
+    },
+    {
+      "field": "registration_quarter",
+      "definition": "Calendar quarter of date_reg, from 1 to 4."
+    },
+    {
+      "field": "registration_year_month",
+      "definition": "date_reg formatted as YYYY-MM."
+    }
+  ],
+  "omitted_fields": [
+    {
+      "field": "is_internal_combustion",
+      "reason": "is_internal_combustion is not created. greendiesel, dual-fuel codes, hydrogen, natural gas, other, and unknown cannot be classified as internal combustion from this dataset without an extra assumption. Electric and hybrid flags are set only from explicit source fuel values."
+    }
+  ],
+  "duplicate_policy": "Identical source rows are retained. There is no vehicle or transaction identifier.",
+  "electric_rows": 131117,
+  "hybrid_rows": 208646,
+  "rakan_niaga_rows": 6746287,
+  "statement": "The processed layer standardizes analytical representations while preserving the original JPJ source fields for traceability."
+}
